@@ -188,7 +188,7 @@
                         "in": "body",
                         "schema": {
                             "type": "object",
-                            "$ref": "#/definitions/models.UserFieldForAdd"
+                            "$ref": "#/definitions/models.UserForAdd"
                         }
                     }
                 ],
@@ -230,14 +230,23 @@
                 }
             }
         },
-        "models.UserFieldForAdd": {
+        "models.UserForAdd": {
             "type": "object",
             "properties": {
-                "name": {
+                "email": {
                     "type": "string"
                 },
-                "role": {
+                "mobile": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "roleID": {
                     "type": "integer"
+                },
+                "username": {
+                    "type": "string"
                 }
             }
         }

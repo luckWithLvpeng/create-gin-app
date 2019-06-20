@@ -1,9 +1,11 @@
 package models
 
+import "github.com/pkg/errors"
+
 // Role 角色
 type Role struct {
 	ID          int64 `gorm:"primary_key"`
-	RoleName    string
+	RoleName    string `gorm:"unique"`
 	Description string
 }
 
@@ -59,6 +61,11 @@ func RoleUpdate(r *Role) (int64, error) {
 
 // RoleAdd 添加角色
 func RoleAdd(r *Role) (int64, error) {
+	var role Role
+	db.Where("role_name = ?",r.RoleName).First(&role)
+	if role.ID > 0{
+		return 0, errors.New("role already exist")
+	}
 	db := db.Create(&r)
 	if db.Error != nil {
 		return 0, db.Error

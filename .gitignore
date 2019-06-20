@@ -1,0 +1,17 @@
+node_modules
+*.log
+*.swp
+*.db
+.idea
+*.err
+*.rdb
+tags
+*.tar.gz
+*.jpg
+*.out
+.DS_Store
+hsfe_log*
+hsvd_log*
+core
+logfile
+docs

@@ -52,11 +52,11 @@ func UserGet(c *gin.Context) {
 // @Summary 添加用户
 // @Tags user
 // @Accept  json
-// @Param body body models.UserFieldForAdd ture "user for add"
+// @Param body body models.UserForAdd ture "user for add"
 // @Success 200 {object} controllers.Response
 // @Router /users [post]
 func UserAdd(c *gin.Context) {
-	var user models.UserFieldForAdd
+	var user models.User
 	err := c.ShouldBindJSON(&user)
 	if err != nil {
 		c.JSON(http.StatusOK, Response{

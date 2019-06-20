@@ -1,4 +1,4 @@
-# creat gin app
+# create gin app
 
 gin 作为 server 初始化golang项目
 

@@ -16,12 +16,18 @@ definitions:
       roleName:
         type: string
     type: object
-  models.UserFieldForAdd:
+  models.UserForAdd:
     properties:
-      name:
+      email:
         type: string
-      role:
+      mobile:
+        type: string
+      password:
+        type: string
+      roleID:
         type: integer
+      username:
+        type: string
     type: object
 host: '{{.Host}}'
 info:
@@ -147,7 +153,7 @@ paths:
         in: body
         name: body
         schema:
-          $ref: '#/definitions/models.UserFieldForAdd'
+          $ref: '#/definitions/models.UserForAdd'
           type: object
       responses:
         "200":
