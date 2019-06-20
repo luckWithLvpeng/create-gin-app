@@ -1,0 +1,6 @@
+2019/06/15 16:42:45 main.go:37: listen on :8080
+[GIN] 2019/06/15 - 16:47:52 | 404 |         331ns |             ::1 | GET      /
+[GIN] 2019/06/15 - 16:47:52 | 404 |         250ns |             ::1 | GET      /favicon.ico
+[GIN] 2019/06/15 - 16:57:18 | 200 |      43.773µs |             ::1 | GET      /
+2019/06/15 22:41:48 init.go:49: Error 1049: Unknown database 'dbtest'
+2019/06/15 22:43:36 init.go:49: Error 1049: Unknown database 'dbtest'

@@ -1,0 +1,931 @@
+2019/06/19 09:25:41 main.go:29: Actual pid is 1908
+[GIN] 2019/06/19 - 09:25:42 | 200 |     398.812µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 09:25:42 | 200 |    8.777594ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 09:25:42 | 200 |    5.412655ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 09:25:42 | 200 |  319.045214ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 09:25:42 | 200 |       86.35µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 09:25:43 | 200 |     411.868µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 09:25:43 | 200 |   69.039098ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 09:25:43 | 200 |      91.623µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 09:25:43 | 200 |  529.267602ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 09:25:52 | 404 |         221ns |             ::1 | DELETE   /v1/role/del
+[GIN] 2019/06/19 - 09:25:52 | 404 |         240ns |             ::1 | DELETE   /v1/role/del
+2019/06/19 09:27:53 endless.go:341: 1908 Received SIGINT.
+2019/06/19 09:27:53 endless.go:196: 1908 Waiting for connections to finish...
+2019/06/19 09:27:53 endless.go:199: 1908 Serve() returning...
+2019/06/19 09:27:53 endless.go:385: 1908 [::]:80 Listener closed.
+2019/06/19 09:27:53 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 09:28:01 main.go:29: Actual pid is 2205
+[GIN] 2019/06/19 - 09:28:10 | 200 |     608.696µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 09:28:10 | 200 |    7.677682ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 09:28:10 | 200 |   11.794571ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 09:28:10 | 200 |  217.138538ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 09:28:10 | 200 |      78.971µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 09:28:11 | 200 |     305.874µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 09:28:11 | 200 |    56.08344ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 09:28:11 | 200 |      54.372µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 09:28:11 | 200 |  441.059287ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 09:28:24 | 200 |      68.941µs |             ::1 | POST     /v1/role/del
+2019/06/19 09:29:30 endless.go:341: 2205 Received SIGINT.
+2019/06/19 09:29:30 endless.go:196: 2205 Waiting for connections to finish...
+2019/06/19 09:29:30 endless.go:199: 2205 Serve() returning...
+2019/06/19 09:29:30 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 09:29:30 endless.go:385: 2205 [::]:80 Listener closed.
+2019/06/19 09:31:03 main.go:29: Actual pid is 2468
+[GIN] 2019/06/19 - 09:31:19 | 200 |     470.576µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 09:31:19 | 200 |   12.733729ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 09:31:19 | 200 |   10.764717ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 09:31:19 | 200 |  214.938821ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 09:31:19 | 200 |      105.62µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 09:31:19 | 200 |     400.121µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 09:31:19 | 200 |   64.790748ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 09:31:20 | 200 |      50.078µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 09:31:20 | 200 |  482.200317ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 09:31:27 | 200 |      53.982µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:36:37 | 200 |      95.545µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:36:42 | 200 |      34.926µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:37:15 | 200 |     116.969µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:37:33 | 200 |      47.151µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:37:37 | 200 |      33.065µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:38:03 | 200 |     124.003µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:38:11 | 200 |     172.472µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:38:23 | 200 |      44.558µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:38:34 | 200 |      32.065µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:38:45 | 200 |     159.844µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:39:09 | 200 |      35.974µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:39:19 | 200 |     162.645µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:39:27 | 200 |       50.16µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:39:42 | 200 |      61.792µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/19 - 09:39:43 | 200 |      31.021µs |             ::1 | DELETE   /v1/role
+2019/06/19 09:40:18 endless.go:341: 2468 Received SIGINT.
+2019/06/19 09:40:18 endless.go:196: 2468 Waiting for connections to finish...
+2019/06/19 09:40:18 endless.go:199: 2468 Serve() returning...
+2019/06/19 09:40:18 endless.go:385: 2468 [::]:80 Listener closed.
+2019/06/19 09:40:18 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 09:40:24 main.go:29: Actual pid is 2701
+[GIN] 2019/06/19 - 09:40:24 | 200 |     395.845µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 09:40:25 | 200 |    7.042722ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 09:40:25 | 200 |    7.019726ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 09:40:25 | 200 |  308.685074ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 09:40:25 | 200 |      65.524µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 09:40:25 | 200 |      364.87µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 09:40:25 | 200 |   80.213449ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 09:40:26 | 200 |  450.900772ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 09:40:26 | 200 |      49.907µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 09:40:34 | 200 |      40.191µs |             ::1 | DELETE   /v1/role
+2019/06/19 09:45:05 endless.go:341: 2701 Received SIGINT.
+2019/06/19 09:45:05 endless.go:196: 2701 Waiting for connections to finish...
+2019/06/19 09:45:05 endless.go:199: 2701 Serve() returning...
+2019/06/19 09:45:05 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 09:45:05 endless.go:385: 2701 [::]:80 Listener closed.
+2019/06/19 09:45:11 main.go:30: Actual pid is 3025
+[GIN] 2019/06/19 - 09:45:13 | 200 |     485.347µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 09:45:13 | 200 |    7.495425ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 09:45:13 | 200 |    7.016726ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 09:45:13 | 200 |  255.081626ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 09:45:13 | 200 |      66.609µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 09:45:13 | 200 |     342.882µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 09:45:14 | 200 |   72.286004ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 09:45:14 | 200 |      63.875µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 09:45:14 | 200 |  429.974534ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 09:45:30 | 200 |     696.779µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 09:45:42 | 200 |      45.935µs |             ::1 | DELETE   /v1/role
+2019/06/19 09:58:06 endless.go:341: 3025 Received SIGINT.
+2019/06/19 09:58:06 endless.go:385: 3025 [::]:80 Listener closed.
+2019/06/19 09:58:06 endless.go:196: 3025 Waiting for connections to finish...
+2019/06/19 09:58:06 endless.go:199: 3025 Serve() returning...
+2019/06/19 09:58:06 main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 09:58:12 main.go:30: Actual pid is 5017
+[GIN] 2019/06/19 - 09:58:15 | 200 |     504.163µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 09:58:15 | 200 |   11.003667ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 09:58:15 | 200 |   12.374263ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 09:58:15 | 200 |   214.00121ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 09:58:15 | 200 |      57.262µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 09:58:15 | 200 |   88.471149ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 09:58:16 | 200 |     316.908µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 09:58:16 | 200 |     105.287µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 09:58:16 | 200 |  678.764937ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 09:58:56 | 404 |         187ns |             ::1 | DELETE   /v1/role/1
+2019/06/19 09:59:25 endless.go:341: 5017 Received SIGINT.
+2019/06/19 09:59:25 endless.go:196: 5017 Waiting for connections to finish...
+2019/06/19 09:59:25 endless.go:199: 5017 Serve() returning...
+2019/06/19 09:59:25 main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 09:59:25 endless.go:385: 5017 [::]:80 Listener closed.
+2019/06/19 09:59:33 main.go:30: Actual pid is 5129
+[GIN] 2019/06/19 - 09:59:44 | 200 |     512.897µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 09:59:44 | 200 |     8.47098ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 09:59:44 | 200 |    7.403439ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 09:59:44 | 200 |  217.803097ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 09:59:44 | 200 |      87.895µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 09:59:44 | 200 |      348.33µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 09:59:44 | 200 |   60.116892ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 09:59:45 | 200 |      53.305µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 09:59:45 | 200 |  603.790289ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 09:59:51 | 200 |       25.98µs |             ::1 | DELETE   /v1/role/1
+2019/06/19 10:01:31 endless.go:341: 5129 Received SIGINT.
+2019/06/19 10:01:31 endless.go:196: 5129 Waiting for connections to finish...
+2019/06/19 10:01:31 endless.go:199: 5129 Serve() returning...
+2019/06/19 10:01:31 main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 10:01:31 endless.go:385: 5129 [::]:80 Listener closed.
+2019/06/19 10:01:37 main.go:30: Actual pid is 5478
+[GIN] 2019/06/19 - 10:01:38 | 200 |     490.998µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 10:01:38 | 200 |    7.866343ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 10:01:38 | 200 |    5.213322ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 10:01:38 | 200 |  194.193512ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 10:01:38 | 200 |      72.928µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 10:01:38 | 200 |     365.303µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 10:01:38 | 200 |   65.532554ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 10:01:39 | 200 |      51.388µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 10:01:39 | 200 |   503.98576ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 10:01:43 | 200 |    2.820148ms |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 10:01:46 | 200 |     610.571µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 10:01:47 | 200 |     702.219µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 10:01:47 | 200 |     558.974µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 10:01:48 | 200 |     708.854µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 10:01:48 | 200 |     814.631µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 10:01:49 | 200 |    2.901275ms |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 10:01:49 | 200 |     846.664µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 10:01:50 | 200 |      656.77µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 10:01:51 | 200 |     834.391µs |             ::1 | DELETE   /v1/role/1
+2019/06/19 10:33:53 endless.go:341: 5478 Received SIGINT.
+2019/06/19 10:33:53 endless.go:385: 5478 [::]:80 Listener closed.
+2019/06/19 10:33:53 endless.go:196: 5478 Waiting for connections to finish...
+2019/06/19 10:33:53 endless.go:199: 5478 Serve() returning...
+2019/06/19 10:33:53 main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 10:33:59 main.go:30: Actual pid is 7806
+[GIN] 2019/06/19 - 10:34:04 | 200 |    5.256411ms |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 10:34:04 | 200 |    8.336788ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 10:34:04 | 200 |     507.572µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 10:34:04 | 200 |  242.444058ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 10:34:04 | 200 |     105.932µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 10:34:04 | 200 |     429.933µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 10:34:04 | 200 |   73.443321ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 10:34:05 | 200 |       73.15µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 10:34:05 | 200 |  603.364445ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 10:34:36 | 404 |         193ns |             ::1 | PUT      /v1/role
+2019/06/19 10:35:23 endless.go:341: 7806 Received SIGINT.
+2019/06/19 10:35:23 endless.go:385: 7806 [::]:80 Listener closed.
+2019/06/19 10:35:23 endless.go:196: 7806 Waiting for connections to finish...
+2019/06/19 10:35:23 endless.go:199: 7806 Serve() returning...
+2019/06/19 10:35:23 main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 10:35:29 main.go:30: Actual pid is 7954
+[GIN] 2019/06/19 - 10:35:40 | 200 |     436.294µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 10:35:40 | 200 |    8.879893ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 10:35:40 | 200 |   11.322731ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 10:35:41 | 200 |  252.992319ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 10:35:41 | 200 |      141.96µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 10:35:41 | 200 |    1.192602ms |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 10:35:41 | 200 |   98.999951ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 10:35:41 | 200 |      47.303µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 10:35:41 | 200 |   490.74471ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 10:36:02 | 200 |      71.115µs |             ::1 | PUT      /v1/role
+2019/06/19 10:36:50 endless.go:341: 7954 Received SIGINT.
+2019/06/19 10:36:50 endless.go:196: 7954 Waiting for connections to finish...
+2019/06/19 10:36:50 endless.go:199: 7954 Serve() returning...
+2019/06/19 10:36:50 main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 10:36:50 endless.go:385: 7954 [::]:80 Listener closed.
+2019/06/19 10:36:54 main.go:30: Actual pid is 8056
+[GIN] 2019/06/19 - 10:37:03 | 200 |    2.657051ms |             ::1 | PUT      /v1/role
+[GIN] 2019/06/19 - 10:37:11 | 200 |    2.126292ms |             ::1 | PUT      /v1/role
+[GIN] 2019/06/19 - 10:37:36 | 200 |    2.966011ms |             ::1 | PUT      /v1/role
+2019/06/19 10:53:44 endless.go:341: 8056 Received SIGINT.
+2019/06/19 10:53:44 endless.go:196: 8056 Waiting for connections to finish...
+2019/06/19 10:53:44 endless.go:199: 8056 Serve() returning...
+2019/06/19 10:53:44 endless.go:385: 8056 [::]:80 Listener closed.
+2019/06/19 10:53:44 main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 11:24:16 main.go:30: Actual pid is 11102
+[GIN] 2019/06/19 - 11:24:21 | 200 |     669.165µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 11:24:21 | 200 |    6.603586ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 11:24:21 | 200 |    4.397154ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 11:24:21 | 200 |   393.24938ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 11:24:21 | 200 |      86.489µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 11:24:21 | 200 |     460.402µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 11:24:22 | 200 |   71.969656ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 11:24:22 | 200 |  493.864166ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 11:24:22 | 200 |      74.559µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 11:24:43 | 200 |    3.444155ms |             ::1 | POST     /v1/role
+[GIN] 2019/06/19 - 11:25:05 | 200 |     743.096µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 11:27:00 | 200 |    2.337711ms |             ::1 | GET      /v1/role/42
+[GIN] 2019/06/19 - 11:27:03 | 200 |     454.519µs |             ::1 | GET      /v1/role/42
+[GIN] 2019/06/19 - 11:27:33 | 200 |    3.129387ms |             ::1 | DELETE   /v1/role/42
+[GIN] 2019/06/19 - 11:27:37 | 200 |     697.533µs |             ::1 | DELETE   /v1/role/42
+[GIN] 2019/06/19 - 11:27:40 | 200 |     806.735µs |             ::1 | DELETE   /v1/role/42
+2019/06/19 13:22:03 endless.go:341: 11102 Received SIGINT.
+2019/06/19 13:22:03 endless.go:385: 11102 [::]:80 Listener closed.
+2019/06/19 13:22:03 endless.go:196: 11102 Waiting for connections to finish...
+2019/06/19 13:22:03 endless.go:199: 11102 Serve() returning...
+2019/06/19 13:22:03 main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 13:24:30 main.go:30: Actual pid is 14151
+[GIN] 2019/06/19 - 13:24:33 | 200 |     618.875µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 13:24:33 | 200 |    9.561778ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 13:24:33 | 200 |    9.083656ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 13:24:33 | 200 |  405.591801ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 13:24:33 | 200 |      68.546µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 13:24:34 | 200 |      426.92µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 13:24:34 | 200 |   57.126759ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 13:24:34 | 200 |      65.785µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 13:24:34 | 200 |  436.401004ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/19 13:25:43 endless.go:341: 14151 Received SIGINT.
+2019/06/19 13:25:43 endless.go:196: 14151 Waiting for connections to finish...
+2019/06/19 13:25:43 endless.go:199: 14151 Serve() returning...
+2019/06/19 13:25:43 main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 13:25:43 endless.go:385: 14151 [::]:80 Listener closed.
+2019/06/19 13:25:54 main.go:30: Actual pid is 14359
+[GIN] 2019/06/19 - 13:25:57 | 200 |     559.572µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 13:25:57 | 200 |   13.011456ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 13:25:57 | 200 |   19.504078ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 13:25:58 | 200 |  252.053334ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 13:25:58 | 200 |      71.395µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 13:25:58 | 200 |     416.586µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 13:25:58 | 200 |   78.796186ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 13:25:58 | 200 |      60.428µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 13:25:59 | 200 |  515.480281ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/19 13:26:54 user.go:23: add user error: Error 1452: Cannot add or update a child row: a foreign key constraint fails (`emedb`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role`) REFERENCES `role` (`id`))
+[GIN] 2019/06/19 - 13:26:54 | 200 |    9.587431ms |             ::1 | POST     /v1/users
+[GIN] 2019/06/19 - 13:30:55 | 200 |    1.756105ms |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 13:31:10 | 200 |    8.911803ms |             ::1 | POST     /v1/users
+[GIN] 2019/06/19 - 13:31:48 | 200 |    2.768127ms |             ::1 | POST     /v1/users
+[GIN] 2019/06/19 - 13:32:14 | 200 |    4.719372ms |             ::1 | POST     /v1/users
+[GIN] 2019/06/19 - 13:32:36 | 200 |    2.729688ms |             ::1 | POST     /v1/users
+2019/06/19 13:36:48 endless.go:341: 14359 Received SIGINT.
+2019/06/19 13:36:48 endless.go:196: 14359 Waiting for connections to finish...
+2019/06/19 13:36:48 endless.go:199: 14359 Serve() returning...
+2019/06/19 13:36:48 main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 13:36:48 endless.go:385: 14359 [::]:80 Listener closed.
+2019/06/19 13:37:07 /Users/lvpeng/eme/main.go:30: Actual pid is 14854
+2019/06/19 13:37:23 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:217: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/19 13:37:23 /Users/lvpeng/eme/main.go:36: Server err: net.Listen error: listen tcp :80: bind: address already in use
+[GIN] 2019/06/19 - 13:38:22 | 200 |     424.443µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 13:38:22 | 200 |    9.115846ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 13:38:22 | 200 |     508.398µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 13:38:22 | 200 |  224.352509ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 13:38:22 | 200 |     252.936µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 13:38:23 | 200 |     389.239µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 13:38:23 | 200 |    61.96897ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 13:38:23 | 200 |  569.435386ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 13:38:23 | 200 |     110.804µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 13:38:32 | 200 |      519.36µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 13:38:41 | 200 |     454.754µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 13:38:42 | 200 |      488.78µs |             ::1 | GET      /v1/role
+2019/06/19 13:38:48 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 14854 Received SIGINT.
+2019/06/19 13:38:48 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 14854 Waiting for connections to finish...
+2019/06/19 13:38:48 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 14854 Serve() returning...
+2019/06/19 13:38:48 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 14854 [::]:80 Listener closed.
+2019/06/19 13:38:48 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 13:38:57 /Users/lvpeng/eme/main.go:30: Actual pid is 14919
+[GIN] 2019/06/19 - 13:39:01 | 200 |    2.937939ms |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 13:39:02 | 200 |     421.561µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 13:39:20 | 200 |     446.724µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 13:39:20 | 200 |     377.526µs |             ::1 | GET      /v1/role
+2019/06/19 13:40:29 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 14919 Received SIGINT.
+2019/06/19 13:40:29 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 14919 Waiting for connections to finish...
+2019/06/19 13:40:29 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 14919 Serve() returning...
+2019/06/19 13:40:29 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 13:40:29 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 14919 [::]:80 Listener closed.
+2019/06/19 13:40:32 /Users/lvpeng/eme/main.go:30: Actual pid is 15024
+[GIN] 2019/06/19 - 13:40:41 | 200 |     430.513µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 13:40:41 | 200 |    7.766722ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 13:40:41 | 200 |    2.885281ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 13:40:42 | 200 |   191.15602ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 13:40:42 | 200 |       64.47µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 13:40:42 | 200 |     404.998µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 13:40:42 | 200 |   69.825177ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 13:40:42 | 200 |       63.72µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 13:40:43 | 200 |  561.257629ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 13:40:45 | 200 |    1.645009ms |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 13:40:48 | 200 |     413.734µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 13:42:33 | 200 |    5.261434ms |             ::1 | POST     /v1/role
+[GIN] 2019/06/19 - 13:42:40 | 200 |     1.52711ms |             ::1 | POST     /v1/role
+2019/06/19 13:43:36 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 15024 Received SIGINT.
+2019/06/19 13:43:36 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 15024 Waiting for connections to finish...
+2019/06/19 13:43:36 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 15024 Serve() returning...
+2019/06/19 13:43:36 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 15024 [::]:80 Listener closed.
+2019/06/19 13:43:36 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 13:43:40 /Users/lvpeng/eme/main.go:30: Actual pid is 15161
+[GIN] 2019/06/19 - 13:45:22 | 200 |     790.205µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 13:45:22 | 200 |     8.85011ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 13:45:22 | 200 |   10.328374ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 13:45:22 | 200 |  234.005594ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 13:45:22 | 200 |      63.299µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 13:45:23 | 200 |   87.594543ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 13:45:23 | 200 |     853.661µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 13:45:23 | 200 |      57.652µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 13:45:23 | 200 |  626.480834ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 13:45:33 | 200 |    2.382489ms |             ::1 | POST     /v1/role
+2019/06/19 13:45:39 /Users/lvpeng/eme/models/role.go:71: add user error: Error 1062: Duplicate entry 'root' for key 'title'
+[GIN] 2019/06/19 - 13:45:39 | 200 |    2.453986ms |             ::1 | POST     /v1/role
+[GIN] 2019/06/19 - 13:54:25 | 200 |       148.9µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 13:54:25 | 304 |     106.137µs |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 13:54:25 | 304 |     112.341µs |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 13:54:25 | 304 |      71.681µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 13:54:25 | 304 |       50.21µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 13:54:25 | 304 |      41.073µs |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 13:54:26 | 304 |      39.196µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 13:54:26 | 200 |     529.062µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 13:54:26 | 200 |      59.008µs |             ::1 | GET      /swagger/favicon-32x32.png
+2019/06/19 13:54:57 /Users/lvpeng/eme/models/user.go:23: add user error: Error 1452: Cannot add or update a child row: a foreign key constraint fails (`emedb`.`user`, CONSTRAINT `user_ibfk_1` FOREIGN KEY (`role`) REFERENCES `role` (`id`))
+[GIN] 2019/06/19 - 13:54:57 | 200 |    4.842881ms |             ::1 | POST     /v1/users
+[GIN] 2019/06/19 - 13:55:21 | 200 |    2.276174ms |             ::1 | POST     /v1/users
+2019/06/19 14:07:03 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 15161 Received SIGINT.
+2019/06/19 14:07:03 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 15161 Waiting for connections to finish...
+2019/06/19 14:07:03 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 15161 Serve() returning...
+2019/06/19 14:07:03 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 14:07:03 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 15161 [::]:80 Listener closed.
+2019/06/19 14:07:07 /Users/lvpeng/eme/main.go:30: Actual pid is 16502
+[GIN] 2019/06/19 - 14:07:19 | 200 |     915.525µs |             ::1 | POST     /v1/users
+2019/06/19 14:08:22 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 16502 Received SIGINT.
+2019/06/19 14:08:22 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 16502 Waiting for connections to finish...
+2019/06/19 14:08:22 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 16502 Serve() returning...
+2019/06/19 14:08:22 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 14:08:26 /Users/lvpeng/eme/main.go:30: Actual pid is 16681
+[GIN] 2019/06/19 - 14:08:38 | 200 |    1.498125ms |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 14:08:39 | 200 |   14.648226ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 14:08:39 | 200 |    15.17135ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 14:08:39 | 200 |  285.414222ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 14:08:39 | 200 |      95.994µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 14:08:39 | 200 |     636.178µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 14:08:39 | 200 |   63.415091ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 14:08:39 | 200 |      48.789µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 14:08:40 | 200 |  431.267028ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 14:08:59 | 200 |    1.431022ms |             ::1 | POST     /v1/users
+[GIN] 2019/06/19 - 14:09:09 | 200 |    1.250587ms |             ::1 | POST     /v1/users
+[GIN] 2019/06/19 - 14:09:18 | 200 |    3.028289ms |             ::1 | POST     /v1/users
+2019/06/19 14:09:29 /Users/lvpeng/eme/models/role.go:71: add user error: Error 1046: No database selected
+[GIN] 2019/06/19 - 14:09:29 | 200 |    3.102762ms |             ::1 | POST     /v1/role
+2019/06/19 14:09:49 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 16681 Received SIGINT.
+2019/06/19 14:09:49 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 16681 Waiting for connections to finish...
+2019/06/19 14:09:49 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 16681 Serve() returning...
+2019/06/19 14:09:49 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 16681 [::]:80 Listener closed.
+2019/06/19 14:09:49 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 14:09:53 /Users/lvpeng/eme/main.go:30: Actual pid is 16694
+[GIN] 2019/06/19 - 14:10:00 | 200 |    6.765446ms |             ::1 | POST     /v1/role
+[GIN] 2019/06/19 - 14:10:23 | 200 |    3.509235ms |             ::1 | POST     /v1/users
+2019/06/19 14:15:22 /Users/lvpeng/eme/models/user.go:32: add user error: Error 1062: Duplicate entry 'string' for key 'name'
+[GIN] 2019/06/19 - 14:15:22 | 200 |    2.716145ms |             ::1 | POST     /v1/users
+2019/06/19 14:27:53 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 16694 Received SIGINT.
+2019/06/19 14:27:53 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 16694 [::]:80 Listener closed.
+2019/06/19 14:27:53 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 16694 Waiting for connections to finish...
+2019/06/19 14:27:53 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 16694 Serve() returning...
+2019/06/19 14:27:53 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 14:28:04 /Users/lvpeng/eme/main.go:30: Actual pid is 18354
+[GIN] 2019/06/19 - 14:28:36 | 200 |     689.418µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 14:28:36 | 200 |   13.090241ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 14:28:36 | 200 |   13.397205ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 14:28:37 | 200 |  222.430644ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 14:28:37 | 200 |      65.969µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 14:28:37 | 200 |     532.467µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 14:28:37 | 200 |   83.449645ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 14:28:37 | 200 |      50.666µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 14:28:38 | 200 |  553.082813ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 14:29:13 | 200 |      40.651µs |             ::1 | GET      /v1/users
+[GIN] 2019/06/19 - 14:29:23 | 200 |      31.327µs |             ::1 | GET      /v1/users?nowPage=21&pageSize=222
+[GIN] 2019/06/19 - 14:32:16 | 200 |      29.099µs |             ::1 | GET      /v1/users?nowPage=21&pageSize=222
+2019/06/19 14:32:17 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 18354 Received SIGINT.
+2019/06/19 14:32:17 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 18354 Waiting for connections to finish...
+2019/06/19 14:32:17 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 18354 Serve() returning...
+2019/06/19 14:32:17 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 14:32:17 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 18354 [::]:80 Listener closed.
+2019/06/19 14:32:22 /Users/lvpeng/eme/main.go:30: Actual pid is 18773
+[GIN] 2019/06/19 - 14:32:23 | 200 |      28.928µs |             ::1 | GET      /v1/users?nowPage=21&pageSize=222
+[GIN] 2019/06/19 - 14:32:29 | 200 |      27.989µs |             ::1 | GET      /v1/users?pageSize=222
+2019/06/19 14:53:07 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 18773 Received SIGINT.
+2019/06/19 14:53:07 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 18773 Waiting for connections to finish...
+2019/06/19 14:53:07 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 18773 Serve() returning...
+2019/06/19 14:53:07 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 18773 [::]:80 Listener closed.
+2019/06/19 14:53:07 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 14:53:13 /Users/lvpeng/eme/main.go:30: Actual pid is 21478
+[GIN] 2019/06/19 - 14:53:35 | 200 |     868.361µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 14:53:36 | 200 |    8.034484ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 14:53:36 | 200 |    8.209286ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 14:53:36 | 200 |  234.658879ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 14:53:36 | 200 |       108.8µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 14:53:36 | 200 |     411.924µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 14:53:36 | 200 |   86.181113ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 14:53:36 | 200 |      79.277µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 14:53:37 | 200 |  702.291419ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 14:53:42 | 200 |     894.029µs |             ::1 | GET      /v1/users
+2019/06/19 14:57:19 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 21478 Received SIGINT.
+2019/06/19 14:57:19 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 21478 Waiting for connections to finish...
+2019/06/19 14:57:19 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 21478 Serve() returning...
+2019/06/19 14:57:19 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 14:57:19 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 21478 [::]:80 Listener closed.
+2019/06/19 14:57:23 /Users/lvpeng/eme/main.go:30: Actual pid is 21685
+[GIN] 2019/06/19 - 14:57:24 | 200 |    1.586129ms |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 14:57:24 | 200 |   11.994734ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 14:57:24 | 200 |   11.725299ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 14:57:24 | 200 |  251.645619ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 14:57:25 | 200 |      57.698µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 14:57:25 | 200 |     367.702µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 14:57:25 | 200 |    58.75537ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 14:57:25 | 200 |      48.396µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 14:57:25 | 200 |  528.872684ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/19 14:57:33 /Users/lvpeng/eme/models/user.go:28: add user error: sql: Scan error on column index 2, name "role": unsupported Scan, storing driver.Value type []uint8 into type *models.Role
+[GIN] 2019/06/19 - 14:57:33 | 200 |     718.151µs |             ::1 | GET      /v1/users
+2019/06/19 15:14:12 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 21685 Received SIGINT.
+2019/06/19 15:14:12 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 21685 Waiting for connections to finish...
+2019/06/19 15:14:12 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 21685 Serve() returning...
+2019/06/19 15:14:12 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 21685 [::]:80 Listener closed.
+2019/06/19 15:14:12 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 15:14:16 /Users/lvpeng/eme/main.go:30: Actual pid is 21893
+2019/06/19 15:14:25 /Users/lvpeng/eme/models/user.go:28: add user error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id' at line 1
+[GIN] 2019/06/19 - 15:14:25 | 200 |     528.923µs |             ::1 | GET      /v1/users
+2019/06/19 15:14:26 /Users/lvpeng/eme/models/user.go:28: add user error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id' at line 1
+[GIN] 2019/06/19 - 15:14:26 | 200 |     361.068µs |             ::1 | GET      /v1/users
+2019/06/19 15:46:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 21893 Received SIGINT.
+2019/06/19 15:46:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 21893 [::]:80 Listener closed.
+2019/06/19 15:46:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 21893 Waiting for connections to finish...
+2019/06/19 15:46:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 21893 Serve() returning...
+2019/06/19 15:46:46 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 15:46:49 /Users/lvpeng/eme/main.go:30: Actual pid is 22236
+2019/06/19 15:47:59 /Users/lvpeng/eme/models/user.go:28: add user error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id' at line 1
+[GIN] 2019/06/19 - 15:47:59 | 200 |    2.598147ms |             ::1 | GET      /v1/users
+2019/06/19 15:51:00 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 22236 Received SIGINT.
+2019/06/19 15:51:00 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 22236 Waiting for connections to finish...
+2019/06/19 15:51:00 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 22236 Serve() returning...
+2019/06/19 15:51:00 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 15:51:00 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 22236 [::]:80 Listener closed.
+2019/06/19 15:51:04 /Users/lvpeng/eme/main.go:30: Actual pid is 22725
+[GIN] 2019/06/19 - 15:51:07 | 200 |     582.938µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 15:51:07 | 200 |   10.909369ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 15:51:07 | 200 |     7.19005ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 15:51:07 | 200 |   374.32871ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 15:51:08 | 200 |      91.143µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 15:51:08 | 200 |     452.896µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 15:51:08 | 200 |   69.523497ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 15:51:08 | 200 |      443.17µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 15:51:09 | 200 |  590.971173ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/19 15:51:15 /Users/lvpeng/eme/models/user.go:34: add user error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id' at line 1
+[GIN] 2019/06/19 - 15:51:15 | 200 |     398.151µs |             ::1 | GET      /v1/users
+2019/06/19 15:51:20 /Users/lvpeng/eme/models/user.go:34: add user error: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id' at line 1
+[GIN] 2019/06/19 - 15:51:20 | 200 |      732.42µs |             ::1 | GET      /v1/users
+2019/06/19 15:52:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 22725 Received SIGINT.
+2019/06/19 15:52:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 22725 Waiting for connections to finish...
+2019/06/19 15:52:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 22725 Serve() returning...
+2019/06/19 15:52:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 22725 [::]:80 Listener closed.
+2019/06/19 15:52:20 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 15:52:24 /Users/lvpeng/eme/main.go:30: Actual pid is 22806
+2019/06/19 15:52:29 /Users/lvpeng/eme/models/user.go:34: add user error: missing destination name title in *[]models.UserFieldForGet
+[GIN] 2019/06/19 - 15:52:29 | 200 |    2.182581ms |             ::1 | GET      /v1/users
+2019/06/19 15:53:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 22806 Received SIGINT.
+2019/06/19 15:53:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 22806 Waiting for connections to finish...
+2019/06/19 15:53:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 22806 Serve() returning...
+2019/06/19 15:53:20 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 15:53:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 22806 [::]:80 Listener closed.
+2019/06/19 15:53:23 /Users/lvpeng/eme/main.go:30: Actual pid is 22881
+2019/06/19 15:53:29 /Users/lvpeng/eme/models/user.go:34: add user error: missing destination name role in *[]models.UserFieldForGet
+[GIN] 2019/06/19 - 15:53:29 | 200 |     1.10069ms |             ::1 | GET      /v1/users
+2019/06/19 15:55:16 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 22881 Received SIGINT.
+2019/06/19 15:55:16 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 22881 Waiting for connections to finish...
+2019/06/19 15:55:16 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 22881 Serve() returning...
+2019/06/19 15:55:16 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 15:55:16 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 22881 [::]:80 Listener closed.
+2019/06/19 15:55:19 /Users/lvpeng/eme/main.go:30: Actual pid is 23102
+2019/06/19 15:55:34 /Users/lvpeng/eme/models/user.go:28: add user error: missing destination name title in *[]models.User
+[GIN] 2019/06/19 - 15:55:34 | 200 |     788.109µs |             ::1 | GET      /v1/users
+2019/06/19 16:31:45 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 23102 Received SIGINT.
+2019/06/19 16:31:45 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 23102 Waiting for connections to finish...
+2019/06/19 16:31:45 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 23102 Serve() returning...
+2019/06/19 16:31:45 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 16:31:45 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 23102 [::]:80 Listener closed.
+2019/06/19 17:50:14 /Users/lvpeng/eme/main.go:30: Actual pid is 24080
+2019/06/19 18:30:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24080 Received SIGINT.
+2019/06/19 18:30:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24080 Waiting for connections to finish...
+2019/06/19 18:30:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24080 Serve() returning...
+2019/06/19 18:30:46 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 18:30:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24080 [::]:80 Listener closed.
+2019/06/19 18:30:51 /Users/lvpeng/eme/main.go:30: Actual pid is 24238
+2019/06/19 22:03:25 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24238 Received SIGINT.
+2019/06/19 22:03:25 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24238 Waiting for connections to finish...
+2019/06/19 22:03:25 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24238 Serve() returning...
+2019/06/19 22:03:25 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 22:03:25 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24238 [::]:80 Listener closed.
+2019/06/19 22:03:29 /Users/lvpeng/eme/main.go:30: Actual pid is 24328
+2019/06/19 22:07:22 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24328 Received SIGINT.
+2019/06/19 22:07:22 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24328 Waiting for connections to finish...
+2019/06/19 22:07:22 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24328 Serve() returning...
+2019/06/19 22:07:22 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 22:07:31 /Users/lvpeng/eme/main.go:30: Actual pid is 24346
+2019/06/19 22:10:38 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24346 Received SIGINT.
+2019/06/19 22:10:38 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24346 Waiting for connections to finish...
+2019/06/19 22:10:38 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24346 Serve() returning...
+2019/06/19 22:10:38 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 22:10:41 /Users/lvpeng/eme/main.go:30: Actual pid is 24362
+2019/06/19 22:42:19 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24362 Received SIGINT.
+2019/06/19 22:42:19 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24362 Waiting for connections to finish...
+2019/06/19 22:42:19 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24362 Serve() returning...
+2019/06/19 22:42:19 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 22:42:31 /Users/lvpeng/eme/main.go:30: Actual pid is 24427
+[GIN] 2019/06/19 - 22:42:35 | 200 |     613.636µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 22:42:36 | 200 |     9.07473ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 22:42:36 | 200 |    7.166147ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 22:42:36 | 200 |   280.99323ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 22:42:36 | 200 |      140.61µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 22:42:36 | 200 |      417.35µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 22:42:36 | 200 |   84.536173ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 22:42:37 | 200 |       53.61µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 22:42:37 | 200 |  559.672792ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/19 22:43:41 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24427 Received SIGINT.
+2019/06/19 22:43:41 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24427 Waiting for connections to finish...
+2019/06/19 22:43:41 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24427 Serve() returning...
+2019/06/19 22:43:41 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24427 [::]:80 Listener closed.
+2019/06/19 22:43:41 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 22:43:58 /Users/lvpeng/eme/main.go:30: Actual pid is 24456
+[GIN] 2019/06/19 - 22:43:59 | 200 |     430.698µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 22:43:59 | 200 |    16.64433ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 22:43:59 | 200 |   15.383911ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 22:43:59 | 200 |   264.88477ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 22:44:00 | 200 |      52.674µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 22:44:00 | 200 |     364.962µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 22:44:00 | 200 |   59.028533ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 22:44:00 | 200 |  467.670585ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 22:44:00 | 200 |      90.208µs |             ::1 | GET      /swagger/favicon-32x32.png
+2019/06/19 22:45:33 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24456 Received SIGINT.
+2019/06/19 22:45:33 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24456 [::]:80 Listener closed.
+2019/06/19 22:45:33 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24456 Waiting for connections to finish...
+2019/06/19 22:45:33 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24456 Serve() returning...
+2019/06/19 22:45:33 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 22:45:50 /Users/lvpeng/eme/main.go:30: Actual pid is 24495
+[GIN] 2019/06/19 - 22:46:02 | 200 |     518.328µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 22:46:02 | 200 |   10.426953ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 22:46:02 | 200 |   11.789755ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 22:46:02 | 200 |  211.430564ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 22:46:02 | 200 |      76.879µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 22:46:03 | 200 |     418.533µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 22:46:03 | 200 |    67.97044ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 22:46:03 | 200 |      73.041µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 22:46:03 | 200 |  520.734896ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/19 22:50:22 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24495 Received SIGINT.
+2019/06/19 22:50:22 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24495 Waiting for connections to finish...
+2019/06/19 22:50:22 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24495 Serve() returning...
+2019/06/19 22:50:22 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 22:50:22 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24495 [::]:80 Listener closed.
+2019/06/19 22:50:36 /Users/lvpeng/eme/main.go:30: Actual pid is 24545
+[GIN] 2019/06/19 - 23:01:04 | 200 |     637.007µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 23:01:04 | 200 |     9.53274ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 23:01:04 | 200 |   11.361658ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 23:01:05 | 200 |  200.835388ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 23:01:06 | 200 |       55.93µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 23:01:06 | 200 |     342.043µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 23:01:06 | 200 |      49.457µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 23:01:06 | 200 |  117.897121ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 23:01:06 | 200 |  550.488333ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 23:01:23 | 200 |     187.624µs |             ::1 | POST     /v1/role
+2019/06/19 23:16:37 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24545 Received SIGINT.
+2019/06/19 23:16:37 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24545 [::]:80 Listener closed.
+2019/06/19 23:16:37 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24545 Waiting for connections to finish...
+2019/06/19 23:16:37 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24545 Serve() returning...
+2019/06/19 23:16:37 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:16:41 /Users/lvpeng/eme/main.go:30: Actual pid is 24573
+[GIN] 2019/06/19 - 23:16:48 | 200 |    7.122161ms |             ::1 | POST     /v1/role
+2019/06/19 23:17:11 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24573 Received SIGINT.
+2019/06/19 23:17:11 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24573 Waiting for connections to finish...
+2019/06/19 23:17:11 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24573 Serve() returning...
+2019/06/19 23:17:11 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:17:17 /Users/lvpeng/eme/main.go:30: Actual pid is 24588
+[GIN] 2019/06/19 - 23:17:23 | 200 |    3.935931ms |             ::1 | POST     /v1/role
+2019/06/19 23:22:34 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24588 Received SIGINT.
+2019/06/19 23:22:34 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24588 Waiting for connections to finish...
+2019/06/19 23:22:34 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24588 Serve() returning...
+2019/06/19 23:22:34 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:22:52 /Users/lvpeng/eme/main.go:30: Actual pid is 24640
+2019/06/19 23:25:56 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24640 Received SIGINT.
+2019/06/19 23:25:56 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24640 Waiting for connections to finish...
+2019/06/19 23:25:56 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24640 Serve() returning...
+2019/06/19 23:25:56 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:25:56 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24640 [::]:80 Listener closed.
+2019/06/19 23:27:39 /Users/lvpeng/eme/main.go:30: Actual pid is 24687
+
+
+[31m2019/06/19 23:27:42 [Recovery] 2019/06/19 - 23:27:42 panic recovered:
+GET /v1/role HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+reflect: call of reflect.Value.Interface on zero Value
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/scope.go:863 (0x132450f)
+	(*Scope).callCallbacks.func1: panic(err)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:522 (0x102d474)
+	gopanic: reflectcall(nil, unsafe.Pointer(d.fn), deferArgs(d), uint32(d.siz), uint32(d.siz))
+/usr/local/Cellar/go/1.12.6/libexec/src/reflect/value.go:984 (0x10881c0)
+	valueInterface: panic(&ValueError{"reflect.Value.Interface", 0})
+/usr/local/Cellar/go/1.12.6/libexec/src/reflect/value.go:979 (0x12e33fc)
+	Value.Interface: return valueInterface(v, true)
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/callback_create.go:68 (0x12e33e4)
+	createCallback: placeholders = append(placeholders, scope.AddToVars(field.Field.Interface()))
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/scope.go:867 (0x130f0b7)
+	(*Scope).callCallbacks: (*f)(scope)
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/main.go:459 (0x12fefde)
+	(*DB).Create: return scope.callCallbacks(s.parent.callbacks.creates).db
+/Users/lvpeng/eme/models/role.go:33 (0x132aa6b)
+	RoleGet: if db := db.Create(&roles); db.Error != nil {
+/Users/lvpeng/eme/controllers/role.go:52 (0x159d123)
+	RoleGet: data, err := models.RoleGet()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587569)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x15995b0)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587569)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x159a509)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587569)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x1590a51)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x1590283)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x13ae167)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x13a9d50)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/19 23:28:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24687 Received SIGINT.
+2019/06/19 23:28:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24687 Waiting for connections to finish...
+2019/06/19 23:28:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24687 Serve() returning...
+2019/06/19 23:28:20 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:28:20 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24687 [::]:80 Listener closed.
+2019/06/19 23:29:25 /Users/lvpeng/eme/main.go:30: Actual pid is 24734
+
+
+[31m2019/06/19 23:29:28 [Recovery] 2019/06/19 - 23:29:28 panic recovered:
+GET /v1/role HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+reflect: call of reflect.Value.Interface on zero Value
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/scope.go:863 (0x132450f)
+	(*Scope).callCallbacks.func1: panic(err)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:522 (0x102d474)
+	gopanic: reflectcall(nil, unsafe.Pointer(d.fn), deferArgs(d), uint32(d.siz), uint32(d.siz))
+/usr/local/Cellar/go/1.12.6/libexec/src/reflect/value.go:984 (0x10881c0)
+	valueInterface: panic(&ValueError{"reflect.Value.Interface", 0})
+/usr/local/Cellar/go/1.12.6/libexec/src/reflect/value.go:979 (0x12e33fc)
+	Value.Interface: return valueInterface(v, true)
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/callback_create.go:68 (0x12e33e4)
+	createCallback: placeholders = append(placeholders, scope.AddToVars(field.Field.Interface()))
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/scope.go:867 (0x130f0b7)
+	(*Scope).callCallbacks: (*f)(scope)
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/main.go:459 (0x12fefde)
+	(*DB).Create: return scope.callCallbacks(s.parent.callbacks.creates).db
+/Users/lvpeng/eme/models/role.go:33 (0x132aa6b)
+	RoleGet: if db := db.Create(&roles); db.Error != nil {
+/Users/lvpeng/eme/controllers/role.go:52 (0x159d133)
+	RoleGet: data, err := models.RoleGet()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587579)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x15995c0)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587579)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x159a519)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587579)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x1590a61)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x1590293)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x13ae177)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x13a9d60)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+[GIN] 2019/06/19 - 23:31:58 | 200 |    4.216467ms |             ::1 | POST     /v1/role
+
+
+[31m2019/06/19 23:32:07 [Recovery] 2019/06/19 - 23:32:07 panic recovered:
+GET /v1/role HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+reflect: call of reflect.Value.Interface on zero Value
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/scope.go:863 (0x132450f)
+	(*Scope).callCallbacks.func1: panic(err)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:522 (0x102d474)
+	gopanic: reflectcall(nil, unsafe.Pointer(d.fn), deferArgs(d), uint32(d.siz), uint32(d.siz))
+/usr/local/Cellar/go/1.12.6/libexec/src/reflect/value.go:984 (0x10881c0)
+	valueInterface: panic(&ValueError{"reflect.Value.Interface", 0})
+/usr/local/Cellar/go/1.12.6/libexec/src/reflect/value.go:979 (0x12e33fc)
+	Value.Interface: return valueInterface(v, true)
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/callback_create.go:68 (0x12e33e4)
+	createCallback: placeholders = append(placeholders, scope.AddToVars(field.Field.Interface()))
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/scope.go:867 (0x130f0b7)
+	(*Scope).callCallbacks: (*f)(scope)
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/main.go:459 (0x12fefde)
+	(*DB).Create: return scope.callCallbacks(s.parent.callbacks.creates).db
+/Users/lvpeng/eme/models/role.go:33 (0x132aa6b)
+	RoleGet: if db := db.Create(&roles); db.Error != nil {
+/Users/lvpeng/eme/controllers/role.go:52 (0x159d133)
+	RoleGet: data, err := models.RoleGet()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587579)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x15995c0)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587579)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x159a519)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587579)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x1590a61)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x1590293)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x13ae177)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x13a9d60)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+
+
+[31m2019/06/19 23:32:55 [Recovery] 2019/06/19 - 23:32:55 panic recovered:
+GET /v1/role HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+reflect: call of reflect.Value.Interface on zero Value
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/scope.go:863 (0x132450f)
+	(*Scope).callCallbacks.func1: panic(err)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:522 (0x102d474)
+	gopanic: reflectcall(nil, unsafe.Pointer(d.fn), deferArgs(d), uint32(d.siz), uint32(d.siz))
+/usr/local/Cellar/go/1.12.6/libexec/src/reflect/value.go:984 (0x10881c0)
+	valueInterface: panic(&ValueError{"reflect.Value.Interface", 0})
+/usr/local/Cellar/go/1.12.6/libexec/src/reflect/value.go:979 (0x12e33fc)
+	Value.Interface: return valueInterface(v, true)
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/callback_create.go:68 (0x12e33e4)
+	createCallback: placeholders = append(placeholders, scope.AddToVars(field.Field.Interface()))
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/scope.go:867 (0x130f0b7)
+	(*Scope).callCallbacks: (*f)(scope)
+/Users/lvpeng/gospace/pkg/mod/github.com/jinzhu/gorm@v1.9.8/main.go:459 (0x12fefde)
+	(*DB).Create: return scope.callCallbacks(s.parent.callbacks.creates).db
+/Users/lvpeng/eme/models/role.go:33 (0x132aa6b)
+	RoleGet: if db := db.Create(&roles); db.Error != nil {
+/Users/lvpeng/eme/controllers/role.go:52 (0x159d133)
+	RoleGet: data, err := models.RoleGet()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587579)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x15995c0)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587579)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x159a519)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x1587579)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x1590a61)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x1590293)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x13ae177)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x13a9d60)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/19 23:33:47 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24734 Received SIGINT.
+2019/06/19 23:33:47 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24734 Waiting for connections to finish...
+2019/06/19 23:33:47 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24734 Serve() returning...
+2019/06/19 23:33:47 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:33:47 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24734 [::]:80 Listener closed.
+2019/06/19 23:33:51 /Users/lvpeng/eme/main.go:30: Actual pid is 24755
+[GIN] 2019/06/19 - 23:33:54 | 200 |     760.397µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:36:44 | 200 |     436.122µs |             ::1 | GET      /v1/role
+2019/06/19 23:36:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24755 Received SIGINT.
+2019/06/19 23:36:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24755 Waiting for connections to finish...
+2019/06/19 23:36:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24755 Serve() returning...
+2019/06/19 23:36:46 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:36:46 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24755 [::]:80 Listener closed.
+2019/06/19 23:36:49 /Users/lvpeng/eme/main.go:30: Actual pid is 24775
+[GIN] 2019/06/19 - 23:36:52 | 200 |     761.211µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:37:06 | 200 |     574.237µs |             ::1 | GET      /v1/role/1
+[GIN] 2019/06/19 - 23:43:33 | 200 |     478.753µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 23:43:33 | 200 |   13.843562ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 23:43:33 | 200 |   11.671497ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 23:43:33 | 200 |  199.278088ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 23:43:33 | 200 |      81.362µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 23:43:33 | 200 |      346.02µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 23:43:34 | 200 |    96.40686ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 23:43:34 | 200 |      54.264µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 23:43:34 | 200 |  493.778251ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 23:43:43 | 200 |     504.661µs |             ::1 | GET      /v1/role/1
+[GIN] 2019/06/19 - 23:43:48 | 200 |     719.035µs |             ::1 | GET      /v1/role/2
+[GIN] 2019/06/19 - 23:43:56 | 200 |     470.366µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:44:42 | 200 |      44.487µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 23:44:52 | 200 |     435.212µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:44:56 | 200 |     458.815µs |             ::1 | GET      /v1/role
+2019/06/19 23:44:59 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24775 Received SIGINT.
+2019/06/19 23:44:59 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24775 Waiting for connections to finish...
+2019/06/19 23:44:59 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24775 Serve() returning...
+2019/06/19 23:44:59 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:45:03 /Users/lvpeng/eme/main.go:30: Actual pid is 24795
+[GIN] 2019/06/19 - 23:45:05 | 200 |     440.244µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 23:45:05 | 200 |   13.279678ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 23:45:05 | 200 |   11.531301ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 23:45:05 | 200 |  230.525309ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 23:45:06 | 200 |      63.293µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 23:45:07 | 200 |     459.275µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 23:45:07 | 200 |   66.434736ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 23:45:07 | 200 |      55.817µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 23:45:07 | 200 |  559.936526ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/19 23:45:10 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24795 Received SIGINT.
+2019/06/19 23:45:10 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24795 Waiting for connections to finish...
+2019/06/19 23:45:10 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24795 Serve() returning...
+2019/06/19 23:45:10 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:385: 24795 [::]:80 Listener closed.
+2019/06/19 23:45:10 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:45:15 /Users/lvpeng/eme/main.go:30: Actual pid is 24816
+[GIN] 2019/06/19 - 23:45:25 | 200 |     961.547µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 23:45:36 | 200 |    2.638074ms |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:46:09 | 200 |      378.33µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 23:46:10 | 200 |   10.060938ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 23:46:10 | 200 |     522.824µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 23:46:10 | 200 |  214.043431ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 23:46:10 | 200 |      96.156µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 23:46:10 | 200 |     631.675µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 23:46:10 | 200 |   62.728531ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 23:46:10 | 200 |      52.338µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 23:46:11 | 200 |  491.272595ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 23:46:16 | 200 |     607.435µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 23:46:26 | 200 |       559.7µs |             ::1 | GET      /v1/role
+2019/06/19 23:47:55 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24816 Received SIGINT.
+2019/06/19 23:47:55 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24816 Waiting for connections to finish...
+2019/06/19 23:47:55 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24816 Serve() returning...
+2019/06/19 23:47:55 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:47:59 /Users/lvpeng/eme/main.go:30: Actual pid is 24838
+[GIN] 2019/06/19 - 23:48:55 | 200 |     350.895µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 23:48:55 | 200 |     8.49097ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 23:48:55 | 200 |   15.551116ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 23:48:56 | 200 |  239.522456ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 23:48:56 | 200 |      78.066µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 23:48:56 | 200 |     366.449µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 23:48:56 | 200 |   74.132991ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 23:48:56 | 200 |       92.62µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 23:48:56 | 200 |  490.995552ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 23:49:05 | 200 |     3.16141ms |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 23:49:15 | 200 |     544.806µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:49:28 | 200 |     917.156µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 23:49:31 | 200 |     904.323µs |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 23:49:50 | 200 |     650.879µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:49:57 | 200 |    1.391807ms |             ::1 | DELETE   /v1/role/1
+[GIN] 2019/06/19 - 23:50:04 | 200 |    2.732465ms |             ::1 | DELETE   /v1/role/2
+[GIN] 2019/06/19 - 23:50:38 | 200 |     666.571µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:51:27 | 200 |     440.845µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/19 - 23:51:27 | 304 |      49.713µs |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/19 - 23:51:27 | 304 |      64.122µs |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/19 - 23:51:27 | 304 |      39.231µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/19 - 23:51:27 | 304 |       51.98µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/19 - 23:51:28 | 304 |      41.061µs |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/19 - 23:51:28 | 304 |      66.209µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/19 - 23:51:28 | 200 |     392.533µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/19 - 23:51:28 | 200 |      50.891µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/19 - 23:51:45 | 200 |     407.458µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:51:56 | 200 |    2.648638ms |             ::1 | POST     /v1/role
+[GIN] 2019/06/19 - 23:52:02 | 200 |     2.72183ms |             ::1 | POST     /v1/role
+[GIN] 2019/06/19 - 23:52:03 | 200 |    2.452547ms |             ::1 | POST     /v1/role
+[GIN] 2019/06/19 - 23:52:03 | 200 |    2.449869ms |             ::1 | POST     /v1/role
+[GIN] 2019/06/19 - 23:52:15 | 200 |    2.620123ms |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:52:27 | 200 |     2.18203ms |             ::1 | DELETE   /v1/role/3
+[GIN] 2019/06/19 - 23:52:33 | 200 |     562.196µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:52:46 | 200 |    2.593254ms |             ::1 | DELETE   /v1/role/4
+2019/06/19 23:52:51 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:341: 24838 Received SIGINT.
+2019/06/19 23:52:51 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:196: 24838 Waiting for connections to finish...
+2019/06/19 23:52:51 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 24838 Serve() returning...
+2019/06/19 23:52:51 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 23:52:54 /Users/lvpeng/eme/main.go:30: Actual pid is 24861
+[GIN] 2019/06/19 - 23:53:00 | 200 |    1.182799ms |             ::1 | GET      /v1/role
+[GIN] 2019/06/19 - 23:53:07 | 200 |    2.716907ms |             ::1 | DELETE   /v1/role/5
+[GIN] 2019/06/19 - 23:53:12 | 200 |     794.188µs |             ::1 | DELETE   /v1/role/5

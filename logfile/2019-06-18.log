@@ -1,0 +1,1471 @@
+2019/06/18 08:48:36 main.go:29: Actual pid is 78317
+[GIN] 2019/06/18 - 08:48:47 | 200 |     520.225µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 08:48:47 | 200 |    8.337831ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 08:48:47 | 200 |    7.984189ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 08:48:47 | 200 |  131.616498ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 08:48:47 | 200 |     280.709µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 08:48:47 | 200 |      63.475µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 08:48:53 | 200 |      40.196µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 08:49:07 | 304 |      35.679µs |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 08:49:07 | 200 |     106.579µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 08:49:07 | 200 |  242.478921ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 08:49:08 | 200 |  698.974397ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 08:49:17 | 200 |      29.992µs |             ::1 | POST     /v1/role/add
+2019/06/18 08:51:55 endless.go:341: 78317 Received SIGINT.
+2019/06/18 08:51:55 endless.go:196: 78317 Waiting for connections to finish...
+2019/06/18 08:51:55 endless.go:199: 78317 Serve() returning...
+2019/06/18 08:51:55 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 09:19:16 main.go:29: Actual pid is 78690
+[GIN] 2019/06/18 - 09:19:21 | 200 |      683.57µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 09:19:21 | 200 |   13.315468ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 09:19:21 | 200 |   14.586601ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 09:19:21 | 200 |  217.332793ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 09:19:24 | 200 |      53.353µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 09:19:24 | 200 |     240.468µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 09:19:24 | 200 |     84.1835ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 09:19:24 | 200 |      92.898µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 09:19:24 | 200 |  561.624143ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 09:19:36 | 200 |       62.17µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:21:49 | 404 |         294ns |             ::1 | GET      /v1/role/add
+[GIN] 2019/06/18 - 09:21:49 | 404 |         236ns |             ::1 | GET      /favicon.ico
+[GIN] 2019/06/18 - 09:22:03 | 200 |     124.777µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:22:35 | 200 |      92.897µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:23:02 | 200 |     212.073µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:24:12 | 200 |     105.121µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:24:17 | 200 |      45.071µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:24:25 | 200 |      91.093µs |             ::1 | POST     /v1/role/add
+2019/06/18 09:26:07 endless.go:341: 78690 Received SIGINT.
+2019/06/18 09:26:07 endless.go:196: 78690 Waiting for connections to finish...
+2019/06/18 09:26:07 endless.go:199: 78690 Serve() returning...
+2019/06/18 09:26:07 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 09:26:38 main.go:29: Actual pid is 78795
+[GIN] 2019/06/18 - 09:27:05 | 200 |     476.653µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 09:27:05 | 200 |   14.673738ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 09:27:05 | 200 |    9.899759ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 09:27:06 | 200 |  219.738755ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 09:27:06 | 200 |      55.182µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 09:27:06 | 200 |     175.322µs |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 09:27:06 | 200 |     752.215µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 09:27:06 | 200 |  222.258599ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 09:27:07 | 200 |      78.987µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 09:27:10 | 200 |     223.596µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 09:27:10 | 200 |   90.377152ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 09:27:10 | 200 |      48.701µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 09:27:10 | 200 |  471.720921ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 09:27:36 | 200 |      31.527µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:27:38 | 200 |      19.058µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:28:15 | 200 |      25.127µs |             ::1 | POST     /v1/role/add
+2019/06/18 09:29:35 endless.go:341: 78795 Received SIGINT.
+2019/06/18 09:29:35 endless.go:196: 78795 Waiting for connections to finish...
+2019/06/18 09:29:35 endless.go:199: 78795 Serve() returning...
+2019/06/18 09:29:35 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 09:29:35 endless.go:385: 78795 [::]:80 Listener closed.
+2019/06/18 09:29:52 main.go:29: Actual pid is 78874
+2019/06/18 09:29:52 endless.go:341: 78874 Received SIGINT.
+2019/06/18 09:29:52 endless.go:196: 78874 Waiting for connections to finish...
+2019/06/18 09:29:52 endless.go:199: 78874 Serve() returning...
+2019/06/18 09:29:52 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 09:30:02 main.go:29: Actual pid is 78894
+[GIN] 2019/06/18 - 09:30:07 | 200 |     460.954µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 09:30:07 | 200 |   10.638122ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 09:30:07 | 200 |    12.38152ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 09:30:07 | 200 |  226.964596ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 09:30:07 | 200 |     101.842µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 09:30:08 | 200 |     233.328µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 09:30:08 | 200 |   66.132438ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 09:30:08 | 200 |      42.275µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 09:30:08 | 200 |  488.512261ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 09:30:48 | 200 |      34.665µs |             ::1 | POST     /v1/role/add
+2019/06/18 09:31:18 endless.go:341: 78894 Received SIGINT.
+2019/06/18 09:31:18 endless.go:196: 78894 Waiting for connections to finish...
+2019/06/18 09:31:18 endless.go:199: 78894 Serve() returning...
+2019/06/18 09:31:18 endless.go:385: 78894 [::]:80 Listener closed.
+2019/06/18 09:31:18 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 09:31:57 main.go:29: Actual pid is 79016
+[GIN] 2019/06/18 - 09:32:09 | 200 |     327.295µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 09:32:09 | 200 |   24.598981ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 09:32:09 | 200 |    4.931061ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 09:32:09 | 200 |   205.45906ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 09:32:09 | 200 |      62.215µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 09:32:09 | 200 |     254.163µs |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 09:32:09 | 200 |     450.212µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 09:32:09 | 200 |  200.914849ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 09:32:11 | 200 |      84.398µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 09:32:12 | 200 |     289.953µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 09:32:12 | 200 |   72.966599ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 09:32:12 | 200 |      53.891µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 09:32:13 | 200 |  517.546588ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 09:32:24 | 200 |     157.953µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 09:32:45 | 200 |      32.856µs |             ::1 | POST     /v1/role/add
+2019/06/18 09:36:40 endless.go:341: 79016 Received SIGINT.
+2019/06/18 09:36:40 endless.go:196: 79016 Waiting for connections to finish...
+2019/06/18 09:36:40 endless.go:199: 79016 Serve() returning...
+2019/06/18 09:36:40 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 09:36:40 endless.go:385: 79016 [::]:80 Listener closed.
+2019/06/18 09:52:23 main.go:29: Actual pid is 79734
+[GIN] 2019/06/18 - 09:52:42 | 200 |     415.882µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 09:52:42 | 200 |    9.983342ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 09:52:42 | 200 |    8.171457ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 09:52:42 | 200 |  352.879752ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 09:52:42 | 200 |      64.535µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 09:52:43 | 200 |     288.923µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 09:52:43 | 200 |   76.103274ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 09:52:43 | 200 |  456.948783ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 09:52:43 | 200 |      47.916µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 09:53:07 | 400 |     101.168µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:54:04 | 400 |      75.138µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:54:06 | 400 |      73.079µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 09:54:07 | 400 |       59.06µs |             ::1 | POST     /v1/role/add
+2019/06/18 09:54:21 endless.go:341: 79734 Received SIGINT.
+2019/06/18 09:54:21 endless.go:196: 79734 Waiting for connections to finish...
+2019/06/18 09:54:21 endless.go:199: 79734 Serve() returning...
+2019/06/18 09:54:21 endless.go:385: 79734 [::]:80 Listener closed.
+2019/06/18 09:54:21 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 09:54:47 main.go:29: Actual pid is 79813
+[GIN] 2019/06/18 - 09:54:52 | 200 |     999.998µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 09:54:52 | 200 |   20.813991ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 09:54:52 | 200 |    22.06783ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 09:54:52 | 200 |  183.469211ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 09:54:54 | 200 |      62.997µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 09:54:54 | 200 |     247.651µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 09:54:54 | 200 |   95.064334ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 09:54:54 | 200 |     144.433µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 09:54:54 | 200 |  467.648228ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/18 09:56:03 endless.go:341: 79813 Received SIGINT.
+2019/06/18 09:56:03 endless.go:385: 79813 [::]:80 Listener closed.
+2019/06/18 09:56:03 endless.go:196: 79813 Waiting for connections to finish...
+2019/06/18 09:56:03 endless.go:199: 79813 Serve() returning...
+2019/06/18 09:56:03 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 10:07:21 main.go:29: Actual pid is 81045
+[GIN] 2019/06/18 - 10:07:22 | 200 |     427.427µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 10:07:22 | 200 |    8.887321ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 10:07:22 | 200 |    9.474203ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 10:07:23 | 200 |   191.85022ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 10:07:23 | 200 |      57.648µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 10:07:23 | 200 |     228.251µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 10:07:24 | 200 |      80.319µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 10:07:24 | 200 |   79.208448ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 10:07:24 | 200 |  904.817924ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 10:07:29 | 400 |     103.695µs |             ::1 | POST     /v1/role/add
+2019/06/18 10:07:46 endless.go:341: 81045 Received SIGINT.
+2019/06/18 10:07:46 endless.go:196: 81045 Waiting for connections to finish...
+2019/06/18 10:07:46 endless.go:199: 81045 Serve() returning...
+2019/06/18 10:07:46 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 10:07:46 endless.go:385: 81045 [::]:80 Listener closed.
+2019/06/18 10:08:05 main.go:29: Actual pid is 81115
+[GIN] 2019/06/18 - 10:08:06 | 200 |     499.363µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 10:08:06 | 200 |    11.61866ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 10:08:06 | 200 |     7.56427ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 10:08:06 | 200 |  219.145904ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 10:08:08 | 200 |      81.169µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 10:08:08 | 200 |     241.007µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 10:08:08 | 200 |   71.587896ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 10:08:08 | 200 |      60.348µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 10:08:08 | 200 |  569.369169ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 10:08:11 | 200 |       36.81µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 10:08:18 | 200 |       27.75µs |             ::1 | POST     /v1/role/add
+2019/06/18 10:16:20 endless.go:341: 81115 Received SIGINT.
+2019/06/18 10:16:20 endless.go:196: 81115 Waiting for connections to finish...
+2019/06/18 10:16:20 endless.go:199: 81115 Serve() returning...
+2019/06/18 10:16:20 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 10:16:20 endless.go:385: 81115 [::]:80 Listener closed.
+2019/06/18 10:56:20 main.go:29: Actual pid is 81338
+[GIN] 2019/06/18 - 10:56:20 | 200 |     627.858µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 10:56:21 | 200 |   18.555284ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 10:56:21 | 200 |   14.052119ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 10:56:21 | 200 |  377.942076ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 10:56:21 | 200 |       99.98µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 10:56:21 | 200 |      79.205µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 10:56:21 | 304 |      37.054µs |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 10:56:21 | 206 |      36.162µs |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 10:56:21 | 304 |      77.355µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 10:56:21 | 206 |      586.54µs |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 10:56:21 | 200 |       53.21µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 10:56:21 | 304 |      53.952µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 10:56:21 | 304 |       39.86µs |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 10:56:21 | 304 |      60.938µs |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 10:56:21 | 304 |      56.988µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 10:56:22 | 304 |      38.484µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 10:56:22 | 200 |     389.488µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 10:56:22 | 200 |   69.371752ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 10:56:22 | 200 |  482.068365ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 10:56:22 | 200 |     241.886µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 10:56:43 | 200 |      36.285µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 10:57:16 | 200 |     120.707µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 10:57:59 | 200 |     108.692µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 10:58:49 | 200 |      88.294µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 10:59:08 | 200 |     119.129µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 10:59:34 | 200 |     113.245µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 10:59:41 | 200 |     101.838µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:00:32 | 200 |      76.566µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:00:41 | 200 |      50.245µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:00:47 | 200 |      47.149µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:00:52 | 200 |     155.665µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:01:03 | 200 |      63.559µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:01:33 | 200 |      40.279µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:01:44 | 200 |     485.256µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:01:58 | 200 |      90.441µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:03:08 | 200 |     199.843µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:03:12 | 200 |     100.118µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:06:07 endless.go:217: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/18 11:06:07 main.go:35: Server err: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/18 11:06:16 endless.go:341: 81338 Received SIGINT.
+2019/06/18 11:06:16 endless.go:196: 81338 Waiting for connections to finish...
+2019/06/18 11:06:16 endless.go:199: 81338 Serve() returning...
+2019/06/18 11:06:16 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:06:16 endless.go:385: 81338 [::]:80 Listener closed.
+2019/06/18 11:06:20 main.go:29: Actual pid is 81489
+[GIN] 2019/06/18 - 11:06:20 | 200 |     405.406µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:06:20 | 200 |   16.910421ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:06:20 | 200 |   10.986965ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:06:20 | 200 |  247.091295ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:06:20 | 200 |      82.039µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:06:21 | 200 |     329.079µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:06:21 | 200 |   64.318282ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:06:21 | 200 |      47.817µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:06:21 | 200 |     108.641µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:06:21 | 304 |      37.491µs |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:06:21 | 304 |      25.194µs |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:06:21 | 304 |      75.625µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:06:21 | 200 |  491.753318ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:06:22 | 200 |     187.835µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:06:22 | 304 |      61.152µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:06:22 | 304 |      70.783µs |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:06:22 | 304 |      38.396µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:06:27 | 200 |      63.456µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:06:44 | 200 |      46.425µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:06:58 endless.go:341: 81489 Received SIGINT.
+2019/06/18 11:06:58 endless.go:196: 81489 Waiting for connections to finish...
+2019/06/18 11:06:58 endless.go:199: 81489 Serve() returning...
+2019/06/18 11:06:58 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:06:58 endless.go:385: 81489 [::]:80 Listener closed.
+2019/06/18 11:07:19 main.go:29: Actual pid is 81554
+[GIN] 2019/06/18 - 11:07:26 | 200 |     495.829µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:07:26 | 200 |    16.21548ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:07:26 | 200 |   15.133184ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:07:26 | 200 |    239.7452ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:07:26 | 200 |       75.13µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:07:27 | 200 |     229.527µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:07:27 | 200 |   55.421345ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:07:27 | 200 |      66.467µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:07:27 | 200 |  489.713533ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:07:34 | 200 |       34.05µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:07:40 | 200 |      20.591µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:07:43 | 200 |      21.067µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:07:45 | 200 |      19.034µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:08:04 endless.go:341: 81554 Received SIGINT.
+2019/06/18 11:08:04 endless.go:196: 81554 Waiting for connections to finish...
+2019/06/18 11:08:04 endless.go:199: 81554 Serve() returning...
+2019/06/18 11:08:04 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:08:04 endless.go:385: 81554 [::]:80 Listener closed.
+2019/06/18 11:29:13 main.go:29: Actual pid is 81831
+[GIN] 2019/06/18 - 11:29:16 | 200 |    1.120265ms |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:29:16 | 200 |    7.195002ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:29:16 | 200 |    3.448936ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:29:16 | 200 |  238.371681ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:29:16 | 200 |      64.976µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:29:16 | 200 |     220.613µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:29:16 | 200 |   59.477189ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:29:17 | 200 |      49.811µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:29:17 | 200 |  456.861631ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:29:37 | 200 |      56.023µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:29:37 | 304 |      59.401µs |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:29:37 | 304 |      28.503µs |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:29:37 | 304 |      85.766µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:29:37 | 304 |       33.86µs |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:29:37 | 304 |     106.142µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:29:37 | 200 |     200.065µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:29:38 | 304 |      51.293µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:29:38 | 200 |      74.235µs |             ::1 | GET      /swagger/favicon-32x32.png
+2019/06/18 11:30:26 endless.go:341: 81831 Received SIGINT.
+2019/06/18 11:30:26 endless.go:196: 81831 Waiting for connections to finish...
+2019/06/18 11:30:26 endless.go:199: 81831 Serve() returning...
+2019/06/18 11:30:26 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:30:26 endless.go:385: 81831 [::]:80 Listener closed.
+2019/06/18 11:30:46 main.go:29: Actual pid is 81908
+[GIN] 2019/06/18 - 11:30:47 | 200 |      363.66µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:30:47 | 200 |    7.888987ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:30:47 | 200 |    8.059227ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:30:47 | 200 |  217.577845ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:30:47 | 200 |      70.104µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:30:48 | 200 |     280.812µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:30:48 | 200 |   63.609616ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:30:48 | 200 |      48.347µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:30:48 | 200 |   442.31442ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:30:52 | 200 |      63.761µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:31:31 endless.go:341: 81908 Received SIGINT.
+2019/06/18 11:31:31 endless.go:196: 81908 Waiting for connections to finish...
+2019/06/18 11:31:31 endless.go:199: 81908 Serve() returning...
+2019/06/18 11:31:31 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:31:31 endless.go:385: 81908 [::]:80 Listener closed.
+2019/06/18 11:31:53 main.go:29: Actual pid is 82004
+[GIN] 2019/06/18 - 11:31:57 | 200 |     459.513µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:31:57 | 200 |   10.078347ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:31:57 | 200 |      11.601ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:31:57 | 200 |  235.067937ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:31:57 | 200 |      78.515µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:31:57 | 200 |    1.461745ms |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:31:57 | 200 |   74.430039ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:31:57 | 200 |      52.973µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:31:58 | 200 |  466.738703ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:32:01 | 200 |       58.31µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:32:13 endless.go:341: 82004 Received SIGINT.
+2019/06/18 11:32:13 endless.go:196: 82004 Waiting for connections to finish...
+2019/06/18 11:32:13 endless.go:199: 82004 Serve() returning...
+2019/06/18 11:32:13 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:32:13 endless.go:385: 82004 [::]:80 Listener closed.
+2019/06/18 11:32:36 main.go:29: Actual pid is 82082
+2019/06/18 11:33:01 endless.go:341: 82082 Received SIGINT.
+2019/06/18 11:33:01 endless.go:196: 82082 Waiting for connections to finish...
+2019/06/18 11:33:01 endless.go:199: 82082 Serve() returning...
+2019/06/18 11:33:01 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:33:01 endless.go:385: 82082 [::]:80 Listener closed.
+2019/06/18 11:33:21 main.go:29: Actual pid is 82152
+[GIN] 2019/06/18 - 11:33:24 | 200 |     485.877µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:33:24 | 200 |    9.427814ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:33:24 | 200 |    2.608287ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:33:24 | 200 |  264.942846ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:33:25 | 200 |      61.238µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:33:25 | 200 |   84.139627ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:33:25 | 200 |     228.482µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:33:25 | 200 |      47.028µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:33:25 | 200 |  588.074146ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:33:30 | 200 |      35.972µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:33:49 | 200 |     122.164µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:34:13 | 200 |     301.131µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:34:49 | 200 |      40.958µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:34:52 | 200 |      44.677µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:36:03 | 200 |      66.286µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:36:27 endless.go:341: 82152 Received SIGINT.
+2019/06/18 11:36:27 endless.go:196: 82152 Waiting for connections to finish...
+2019/06/18 11:36:27 endless.go:199: 82152 Serve() returning...
+2019/06/18 11:36:27 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:36:27 endless.go:385: 82152 [::]:80 Listener closed.
+2019/06/18 11:38:10 main.go:29: Actual pid is 82419
+[GIN] 2019/06/18 - 11:38:12 | 200 |     727.786µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:38:13 | 200 |    8.310884ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:38:13 | 200 |    9.203453ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:38:13 | 200 |  222.220308ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:38:13 | 200 |     138.735µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:38:13 | 200 |     285.192µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:38:13 | 200 |   85.284619ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:38:13 | 200 |      50.009µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:38:14 | 200 |  459.299918ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:38:18 | 200 |      50.071µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:39:17 endless.go:341: 82419 Received SIGINT.
+2019/06/18 11:39:17 endless.go:196: 82419 Waiting for connections to finish...
+2019/06/18 11:39:17 endless.go:385: 82419 [::]:80 Listener closed.
+2019/06/18 11:39:17 endless.go:199: 82419 Serve() returning...
+2019/06/18 11:39:17 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:39:43 main.go:29: Actual pid is 82507
+[GIN] 2019/06/18 - 11:39:45 | 200 |     433.001µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:39:45 | 200 |   14.967489ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:39:45 | 200 |   19.222018ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:39:45 | 200 |  240.577219ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:39:45 | 200 |      99.201µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:39:46 | 200 |     260.246µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:39:46 | 200 |   75.850746ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:39:46 | 200 |      53.156µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:39:46 | 200 |  527.951753ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:39:53 | 200 |       35.43µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:40:59 endless.go:341: 82507 Received SIGINT.
+2019/06/18 11:40:59 endless.go:196: 82507 Waiting for connections to finish...
+2019/06/18 11:40:59 endless.go:199: 82507 Serve() returning...
+2019/06/18 11:40:59 endless.go:385: 82507 [::]:80 Listener closed.
+2019/06/18 11:40:59 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:42:23 main.go:29: Actual pid is 82711
+[GIN] 2019/06/18 - 11:42:32 | 200 |     544.495µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:42:32 | 200 |   15.372276ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:42:32 | 200 |   19.257846ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:42:32 | 200 |  246.132832ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:42:32 | 200 |       73.87µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:42:33 | 200 |     396.666µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:42:33 | 200 |   73.642382ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:42:33 | 200 |      48.214µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:42:33 | 200 |  471.451038ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:42:43 | 400 |       95.77µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:43:16 endless.go:341: 82711 Received SIGINT.
+2019/06/18 11:43:16 endless.go:196: 82711 Waiting for connections to finish...
+2019/06/18 11:43:16 endless.go:199: 82711 Serve() returning...
+2019/06/18 11:43:16 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:43:16 endless.go:385: 82711 [::]:80 Listener closed.
+2019/06/18 11:46:55 main.go:29: Actual pid is 82875
+[GIN] 2019/06/18 - 11:47:04 | 200 |     195.732µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:47:21 | 200 |      85.841µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:47:45 | 200 |     224.728µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:47:55 | 200 |      62.068µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:47:58 endless.go:341: 82875 Received SIGINT.
+2019/06/18 11:47:58 endless.go:385: 82875 [::]:80 Listener closed.
+2019/06/18 11:47:58 endless.go:196: 82875 Waiting for connections to finish...
+2019/06/18 11:47:58 endless.go:199: 82875 Serve() returning...
+2019/06/18 11:47:58 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:48:23 main.go:29: Actual pid is 82987
+[GIN] 2019/06/18 - 11:48:26 | 200 |     764.893µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:48:34 | 200 |     121.317µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:48:39 | 200 |      75.493µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:48:42 | 200 |      345.09µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:48:42 | 200 |   15.215274ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:48:42 | 200 |    2.180926ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:48:43 | 200 |  212.874232ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:48:43 | 200 |      74.722µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:48:43 | 200 |   75.580447ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:48:43 | 200 |     231.811µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:48:43 | 200 |      60.853µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:48:44 | 200 |  627.315095ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:48:47 | 200 |      81.512µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:49:12 endless.go:341: 82987 Received SIGINT.
+2019/06/18 11:49:12 endless.go:196: 82987 Waiting for connections to finish...
+2019/06/18 11:49:12 endless.go:199: 82987 Serve() returning...
+2019/06/18 11:49:12 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 11:49:12 endless.go:385: 82987 [::]:80 Listener closed.
+2019/06/18 11:49:29 main.go:29: Actual pid is 83061
+[GIN] 2019/06/18 - 11:49:31 | 200 |     351.316µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 11:49:31 | 200 |   21.419249ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 11:49:31 | 200 |   19.249794ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 11:49:32 | 200 |  285.682409ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 11:49:32 | 200 |      70.219µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 11:49:32 | 200 |     249.847µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 11:49:32 | 200 |  104.740275ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 11:49:32 | 200 |      116.49µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 11:49:33 | 200 |  554.575539ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 11:49:37 | 200 |      96.018µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:49:57 | 200 |      237.74µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 11:50:01 | 200 |     547.578µs |             ::1 | POST     /v1/role/add
+2019/06/18 11:51:16 endless.go:341: 83061 Received SIGINT.
+2019/06/18 11:51:16 endless.go:196: 83061 Waiting for connections to finish...
+2019/06/18 11:51:16 endless.go:385: 83061 [::]:80 Listener closed.
+2019/06/18 11:51:16 endless.go:199: 83061 Serve() returning...
+2019/06/18 11:51:16 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 13:00:07 main.go:29: Actual pid is 83879
+[GIN] 2019/06/18 - 13:00:11 | 200 |     494.564µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 13:00:11 | 200 |   10.766537ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 13:00:11 | 200 |   10.719081ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 13:00:11 | 200 |  223.224921ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 13:00:11 | 200 |      70.232µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 13:00:11 | 200 |     265.436µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 13:00:11 | 200 |    80.06095ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 13:00:12 | 200 |      67.502µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 13:00:12 | 200 |   628.11873ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/18 13:02:09 endless.go:341: 83879 Received SIGINT.
+2019/06/18 13:02:09 endless.go:196: 83879 Waiting for connections to finish...
+2019/06/18 13:02:09 endless.go:199: 83879 Serve() returning...
+2019/06/18 13:02:09 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 13:02:09 endless.go:385: 83879 [::]:80 Listener closed.
+2019/06/18 13:02:35 main.go:29: Actual pid is 83977
+[GIN] 2019/06/18 - 13:02:38 | 200 |     1.64279ms |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 13:02:38 | 200 |    10.79481ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 13:02:38 | 200 |    7.563935ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 13:02:38 | 200 |  201.378626ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 13:02:39 | 200 |      73.827µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 13:02:39 | 200 |     253.432µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 13:02:39 | 200 |   78.200015ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 13:02:39 | 200 |      54.117µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 13:02:39 | 200 |  513.920285ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 13:03:00 | 200 |     620.989µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 13:03:24 | 200 |      74.822µs |             ::1 | POST     /v1/role/add
+2019/06/18 13:03:37 endless.go:341: 83977 Received SIGINT.
+2019/06/18 13:03:37 endless.go:196: 83977 Waiting for connections to finish...
+2019/06/18 13:03:37 endless.go:199: 83977 Serve() returning...
+2019/06/18 13:03:37 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 13:03:37 endless.go:385: 83977 [::]:80 Listener closed.
+2019/06/18 13:12:56 main.go:29: Actual pid is 84531
+[GIN] 2019/06/18 - 13:13:05 | 200 |     634.915µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 13:13:05 | 200 |   11.706373ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 13:13:05 | 200 |    2.433617ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 13:13:05 | 200 |  242.478262ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 13:13:05 | 200 |      59.245µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 13:13:06 | 200 |     234.416µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 13:13:06 | 200 |   82.138357ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 13:13:06 | 200 |      57.776µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 13:13:06 | 200 |  456.066263ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/18 13:56:44 endless.go:341: 84531 Received SIGINT.
+2019/06/18 13:56:44 endless.go:196: 84531 Waiting for connections to finish...
+2019/06/18 13:56:44 endless.go:199: 84531 Serve() returning...
+2019/06/18 13:56:44 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 13:56:44 endless.go:385: 84531 [::]:80 Listener closed.
+2019/06/18 14:00:02 main.go:29: Actual pid is 84824
+[GIN] 2019/06/18 - 14:02:03 | 200 |     458.265µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 14:02:03 | 200 |   15.425843ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 14:02:03 | 200 |    12.40765ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 14:02:04 | 200 |  345.692315ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 14:02:04 | 200 |      68.826µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 14:02:04 | 200 |     263.668µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 14:02:04 | 200 |   62.383182ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 14:02:04 | 200 |      49.921µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 14:02:05 | 200 |  563.432611ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+
+
+[31m2019/06/18 14:02:28 [Recovery] 2019/06/18 - 14:02:28 panic recovered:
+POST /v1/role/add HTTP/1.1
+Host: localhost
+Accept: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Content-Length: 34
+Content-Type: application/json
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Origin: http://localhost
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:82 (0x1042820)
+	panicmem: panic(memoryError)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/signal_unix.go:390 (0x104264f)
+	sigpanic: panicmem()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:343 (0x12bd775)
+	(*DB).Beginx: tx, err := db.DB.Begin()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:334 (0x12c921f)
+	(*DB).MustBegin: tx, err := db.Beginx()
+/Users/lvpeng/eme/models/role.go:14 (0x12c920f)
+	RoleAdd: tx := DB.MustBegin()
+/Users/lvpeng/eme/controllers/role.go:26 (0x1554be5)
+	RoleAdd: id, err := models.RoleAdd(&role)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x1551500)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x1552459)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x15489a1)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x15481d3)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x134c4c7)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x13480b0)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/18 14:02:43 endless.go:341: 84824 Received SIGINT.
+2019/06/18 14:02:43 endless.go:196: 84824 Waiting for connections to finish...
+2019/06/18 14:02:43 endless.go:199: 84824 Serve() returning...
+2019/06/18 14:02:43 endless.go:385: 84824 [::]:80 Listener closed.
+2019/06/18 14:02:43 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:05:04 main.go:29: Actual pid is 85069
+[GIN] 2019/06/18 - 14:05:06 | 200 |     467.482µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 14:05:06 | 200 |    9.923725ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 14:05:06 | 200 |     644.744µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 14:05:07 | 200 |   234.73908ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 14:05:07 | 200 |      87.645µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 14:05:07 | 200 |     288.672µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 14:05:07 | 200 |   78.424278ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 14:05:07 | 200 |      49.018µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 14:05:08 | 200 |  533.916736ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+
+
+[31m2019/06/18 14:05:12 [Recovery] 2019/06/18 - 14:05:12 panic recovered:
+POST /v1/role/add HTTP/1.1
+Host: localhost
+Accept: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Content-Length: 9
+Content-Type: application/json
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Origin: http://localhost
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:82 (0x1042820)
+	panicmem: panic(memoryError)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/signal_unix.go:390 (0x104264f)
+	sigpanic: panicmem()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:343 (0x12bd775)
+	(*DB).Beginx: tx, err := db.DB.Begin()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:334 (0x12c921f)
+	(*DB).MustBegin: tx, err := db.Beginx()
+/Users/lvpeng/eme/models/role.go:14 (0x12c920f)
+	RoleAdd: tx := DB.MustBegin()
+/Users/lvpeng/eme/controllers/role.go:26 (0x1554be5)
+	RoleAdd: id, err := models.RoleAdd(&role)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x1551500)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x1552459)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x15489a1)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x15481d3)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x134c4c7)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x13480b0)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/18 14:05:31 endless.go:341: 85069 Received SIGINT.
+2019/06/18 14:05:31 endless.go:196: 85069 Waiting for connections to finish...
+2019/06/18 14:05:31 endless.go:199: 85069 Serve() returning...
+2019/06/18 14:05:31 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:06:06 main.go:29: Actual pid is 85171
+[GIN] 2019/06/18 - 14:06:11 | 200 |      540.76µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 14:06:11 | 200 |   12.658427ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 14:06:11 | 200 |   13.374731ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 14:06:11 | 200 |   229.21644ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 14:06:12 | 200 |     313.206µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 14:06:12 | 200 |     297.337µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 14:06:12 | 200 |   67.412038ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 14:06:12 | 200 |      50.744µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 14:06:12 | 200 |   429.53315ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+
+
+[31m2019/06/18 14:06:25 [Recovery] 2019/06/18 - 14:06:25 panic recovered:
+POST /v1/role/add HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Content-Length: 9
+Content-Type: application/x-www-form-urlencoded
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Origin: http://localhost
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:82 (0x1042820)
+	panicmem: panic(memoryError)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/signal_unix.go:390 (0x104264f)
+	sigpanic: panicmem()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:343 (0x12bd775)
+	(*DB).Beginx: tx, err := db.DB.Begin()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:334 (0x12c921f)
+	(*DB).MustBegin: tx, err := db.Beginx()
+/Users/lvpeng/eme/models/role.go:14 (0x12c920f)
+	RoleAdd: tx := DB.MustBegin()
+/Users/lvpeng/eme/controllers/role.go:25 (0x1554be5)
+	RoleAdd: id, err := models.RoleAdd(&role)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x1551500)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x1552459)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x15489a1)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x15481d3)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x134c4c7)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x13480b0)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/18 14:07:11 endless.go:341: 85171 Received SIGINT.
+2019/06/18 14:07:11 endless.go:196: 85171 Waiting for connections to finish...
+2019/06/18 14:07:11 endless.go:199: 85171 Serve() returning...
+2019/06/18 14:07:11 endless.go:385: 85171 [::]:80 Listener closed.
+2019/06/18 14:07:11 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:08:02 main.go:29: Actual pid is 85309
+[GIN] 2019/06/18 - 14:08:06 | 200 |     468.991µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 14:08:06 | 200 |   19.926642ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 14:08:06 | 200 |   11.563349ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 14:08:06 | 200 |  199.508853ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 14:08:07 | 200 |      69.842µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 14:08:07 | 200 |     341.086µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 14:08:07 | 200 |   62.703009ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 14:08:07 | 200 |      49.366µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 14:08:07 | 200 |  532.568892ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+
+
+[31m2019/06/18 14:08:44 [Recovery] 2019/06/18 - 14:08:44 panic recovered:
+POST /v1/role/add HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Content-Length: 10
+Content-Type: application/x-www-form-urlencoded
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Origin: http://localhost
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:82 (0x1042820)
+	panicmem: panic(memoryError)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/signal_unix.go:390 (0x104264f)
+	sigpanic: panicmem()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:343 (0x12bd775)
+	(*DB).Beginx: tx, err := db.DB.Begin()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:334 (0x12c921f)
+	(*DB).MustBegin: tx, err := db.Beginx()
+/Users/lvpeng/eme/models/role.go:14 (0x12c920f)
+	RoleAdd: tx := DB.MustBegin()
+/Users/lvpeng/eme/controllers/role.go:25 (0x1554be5)
+	RoleAdd: id, err := models.RoleAdd(&role)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x1551500)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x1552459)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x15489a1)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x15481d3)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x134c4c7)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x13480b0)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/18 14:09:01 endless.go:341: 85309 Received SIGINT.
+2019/06/18 14:09:01 endless.go:196: 85309 Waiting for connections to finish...
+2019/06/18 14:09:01 endless.go:199: 85309 Serve() returning...
+2019/06/18 14:09:01 endless.go:385: 85309 [::]:80 Listener closed.
+2019/06/18 14:09:01 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:12:31 main.go:29: Actual pid is 85561
+[GIN] 2019/06/18 - 14:12:34 | 200 |     555.282µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 14:12:35 | 200 |   12.232899ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 14:12:35 | 200 |    9.041678ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 14:12:35 | 200 |  223.421118ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 14:12:35 | 200 |      56.424µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 14:12:35 | 200 |     234.316µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 14:12:35 | 200 |   75.771462ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 14:12:35 | 200 |      55.504µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 14:12:36 | 200 |   469.24329ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+
+
+[31m2019/06/18 14:12:41 [Recovery] 2019/06/18 - 14:12:41 panic recovered:
+POST /v1/role/add HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Content-Length: 10
+Content-Type: application/x-www-form-urlencoded
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Origin: http://localhost
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:82 (0x1042820)
+	panicmem: panic(memoryError)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/signal_unix.go:390 (0x104264f)
+	sigpanic: panicmem()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:343 (0x12bd775)
+	(*DB).Beginx: tx, err := db.DB.Begin()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:334 (0x12c921f)
+	(*DB).MustBegin: tx, err := db.Beginx()
+/Users/lvpeng/eme/models/role.go:14 (0x12c920f)
+	RoleAdd: tx := DB.MustBegin()
+/Users/lvpeng/eme/controllers/role.go:22 (0x1554b52)
+	RoleAdd: id, err := models.RoleAdd(&role)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x1551500)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x1552459)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x15489a1)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x15481d3)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x134c4c7)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x13480b0)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/18 14:13:24 endless.go:341: 85561 Received SIGINT.
+2019/06/18 14:13:24 endless.go:196: 85561 Waiting for connections to finish...
+2019/06/18 14:13:24 endless.go:199: 85561 Serve() returning...
+2019/06/18 14:13:24 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:13:24 endless.go:385: 85561 [::]:80 Listener closed.
+2019/06/18 14:17:17 main.go:29: Actual pid is 85639
+
+
+[31m2019/06/18 14:17:22 [Recovery] 2019/06/18 - 14:17:22 panic recovered:
+POST /v1/role/add HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Content-Length: 10
+Content-Type: application/x-www-form-urlencoded
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Origin: http://localhost
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:82 (0x1042820)
+	panicmem: panic(memoryError)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/signal_unix.go:390 (0x104264f)
+	sigpanic: panicmem()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:343 (0x12bd775)
+	(*DB).Beginx: tx, err := db.DB.Begin()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:334 (0x12c921f)
+	(*DB).MustBegin: tx, err := db.Beginx()
+/Users/lvpeng/eme/models/role.go:14 (0x12c920f)
+	RoleAdd: tx := DB.MustBegin()
+/Users/lvpeng/eme/controllers/role.go:22 (0x1554b52)
+	RoleAdd: id, err := models.RoleAdd(&role)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x1551500)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x1552459)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f4b9)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x15489a1)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x15481d3)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x134c4c7)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x13480b0)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/18 14:17:59 endless.go:341: 85639 Received SIGINT.
+2019/06/18 14:17:59 endless.go:196: 85639 Waiting for connections to finish...
+2019/06/18 14:17:59 endless.go:199: 85639 Serve() returning...
+2019/06/18 14:17:59 endless.go:385: 85639 [::]:80 Listener closed.
+2019/06/18 14:17:59 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:18:45 main.go:29: Actual pid is 85723
+2019/06/18 14:18:48 endless.go:341: 85723 Received SIGINT.
+2019/06/18 14:18:48 endless.go:196: 85723 Waiting for connections to finish...
+2019/06/18 14:18:48 endless.go:199: 85723 Serve() returning...
+2019/06/18 14:18:48 endless.go:385: 85723 [::]:80 Listener closed.
+2019/06/18 14:18:48 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:19:26 main.go:29: Actual pid is 85863
+[GIN] 2019/06/18 - 14:19:28 | 200 |     592.778µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 14:19:28 | 200 |    26.82091ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 14:19:28 | 200 |   38.889075ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 14:19:28 | 200 |  286.336401ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 14:19:29 | 200 |     119.599µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 14:19:29 | 200 |     236.723µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 14:19:29 | 200 |   55.975134ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 14:19:29 | 200 |       82.74µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 14:19:29 | 200 |  479.704119ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+
+
+[31m2019/06/18 14:19:34 [Recovery] 2019/06/18 - 14:19:34 panic recovered:
+POST /v1/role/add HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Content-Length: 8
+Content-Type: application/x-www-form-urlencoded
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Origin: http://localhost
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:82 (0x1042820)
+	panicmem: panic(memoryError)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/signal_unix.go:390 (0x104264f)
+	sigpanic: panicmem()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:343 (0x12bd775)
+	(*DB).Beginx: tx, err := db.DB.Begin()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:334 (0x12c920d)
+	(*DB).MustBegin: tx, err := db.Beginx()
+/Users/lvpeng/eme/models/role.go:14 (0x12c91fd)
+	RoleAdd: tx := DB.MustBegin()
+/Users/lvpeng/eme/controllers/role.go:22 (0x15549e2)
+	RoleAdd: id, err := models.RoleAdd(&role)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f349)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x1551390)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f349)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x15522e9)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f349)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x1548831)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x1548063)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x134c357)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x1347f40)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/18 14:20:24 endless.go:341: 85863 Received SIGINT.
+2019/06/18 14:20:24 endless.go:196: 85863 Waiting for connections to finish...
+2019/06/18 14:20:24 endless.go:199: 85863 Serve() returning...
+2019/06/18 14:20:24 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:20:24 endless.go:385: 85863 [::]:80 Listener closed.
+2019/06/18 14:22:50 main.go:29: Actual pid is 86000
+
+
+[31m2019/06/18 14:22:59 [Recovery] 2019/06/18 - 14:22:59 panic recovered:
+POST /v1/role/add HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Content-Length: 8
+Content-Type: application/x-www-form-urlencoded
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Origin: http://localhost
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:82 (0x1042820)
+	panicmem: panic(memoryError)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/signal_unix.go:390 (0x104264f)
+	sigpanic: panicmem()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:343 (0x12bd775)
+	(*DB).Beginx: tx, err := db.DB.Begin()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:334 (0x12c920d)
+	(*DB).MustBegin: tx, err := db.Beginx()
+/Users/lvpeng/eme/models/role.go:14 (0x12c91fd)
+	RoleAdd: tx := DB.MustBegin()
+/Users/lvpeng/eme/controllers/role.go:22 (0x15549e2)
+	RoleAdd: id, err := models.RoleAdd(&role)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f349)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x1551390)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f349)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x15522e9)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f349)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x1548831)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x1548063)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x134c357)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x1347f40)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/18 14:25:01 endless.go:341: 86000 Received SIGINT.
+2019/06/18 14:25:01 endless.go:196: 86000 Waiting for connections to finish...
+2019/06/18 14:25:01 endless.go:199: 86000 Serve() returning...
+2019/06/18 14:25:01 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:28:48 main.go:29: Actual pid is 86530
+2019/06/18 14:29:38 endless.go:341: 86530 Received SIGINT.
+2019/06/18 14:29:38 endless.go:196: 86530 Waiting for connections to finish...
+2019/06/18 14:29:38 endless.go:199: 86530 Serve() returning...
+2019/06/18 14:29:38 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:30:23 main.go:29: Actual pid is 86654
+2019/06/18 14:30:27 endless.go:341: 86654 Received SIGINT.
+2019/06/18 14:30:27 endless.go:196: 86654 Waiting for connections to finish...
+2019/06/18 14:30:27 endless.go:199: 86654 Serve() returning...
+2019/06/18 14:30:27 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:30:27 endless.go:385: 86654 [::]:80 Listener closed.
+2019/06/18 14:31:34 main.go:29: Actual pid is 86855
+[GIN] 2019/06/18 - 14:31:41 | 200 |     589.096µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 14:31:41 | 200 |    8.403783ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 14:31:41 | 200 |    7.001893ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 14:31:42 | 200 |  271.872619ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 14:31:42 | 200 |     154.385µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 14:31:42 | 200 |     222.914µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 14:31:42 | 200 |   74.700942ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 14:31:42 | 200 |      49.424µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 14:31:42 | 200 |  548.440989ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+
+
+[31m2019/06/18 14:31:52 [Recovery] 2019/06/18 - 14:31:52 panic recovered:
+POST /v1/role/add HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Content-Length: 10
+Content-Type: application/x-www-form-urlencoded
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Origin: http://localhost
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:82 (0x1042820)
+	panicmem: panic(memoryError)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/signal_unix.go:390 (0x104264f)
+	sigpanic: panicmem()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:343 (0x12bd775)
+	(*DB).Beginx: tx, err := db.DB.Begin()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:334 (0x12c945a)
+	(*DB).MustBegin: tx, err := db.Beginx()
+/Users/lvpeng/eme/models/role.go:18 (0x12c944a)
+	RoleAdd: tx := DB.MustBegin()
+/Users/lvpeng/eme/controllers/role.go:22 (0x1554c32)
+	RoleAdd: id, err := models.RoleAdd(&role)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f599)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x15515e0)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f599)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x1552539)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f599)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x1548a81)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x15482b3)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x134c5a7)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x1348190)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/18 14:32:02 endless.go:341: 86855 Received SIGINT.
+2019/06/18 14:32:02 endless.go:196: 86855 Waiting for connections to finish...
+2019/06/18 14:32:02 endless.go:199: 86855 Serve() returning...
+2019/06/18 14:32:02 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:32:02 endless.go:385: 86855 [::]:80 Listener closed.
+2019/06/18 14:33:42 main.go:29: Actual pid is 87122
+
+
+[31m2019/06/18 14:33:49 [Recovery] 2019/06/18 - 14:33:49 panic recovered:
+POST /v1/role/add HTTP/1.1
+Host: localhost
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,it;q=0.7
+Connection: keep-alive
+Content-Length: 10
+Content-Type: application/x-www-form-urlencoded
+Cookie: isAlert=false; theme=black; argsAlarmOnly=false; argelang=ch; trackerUser=%7B%22Id%22:1,%22Username%22:%22root%22,%22Token%22:%223805534f-6666-44dd-b3f1-2741e18a7a13%22,%22Roles%22:%5B%7B%22Id%22:1,%22Name%22:%22root%22%7D%5D%7D; trackerToken=%223805534f-6666-44dd-b3f1-2741e18a7a13%22; argetheme=night; IPAndPort={%22ip%22:%22192.168.1.175%22%2C%22port%22:%228080%22%2C%22test%22:false}; language=en-US; this.sid=s%3An7m3krWgzMNgZ5C_mbGsUD_cw_fCeira.tD9zMFFEmXTIvuRxM6jF%2BAWptwKFfQ%2B3dFQ%2B0UgFFW8; XSRF-TOKEN=BE2SMce1HP098533a20db893d3b38fda551c608bbf7893fe5c; agentbotlang=ch; _ga=GA1.1.458185009.1554365590; io=tE7r1qSn40Y6luYXAAAp; argesUser={%22user%22:{%22Id%22:1%2C%22Username%22:%22root%22%2C%22Token%22:%22910e8194-3684-46b1-a9dc-e48f3f0422cd%22%2C%22Roles%22:[{%22Id%22:1%2C%22Name%22:%22root%22}]}}
+Origin: http://localhost
+Referer: http://localhost/swagger/index.html
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36
+
+
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/panic.go:82 (0x1042820)
+	panicmem: panic(memoryError)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/signal_unix.go:390 (0x104264f)
+	sigpanic: panicmem()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:343 (0x12bd775)
+	(*DB).Beginx: tx, err := db.DB.Begin()
+/Users/lvpeng/gospace/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go:334 (0x12c94c8)
+	(*DB).MustBegin: tx, err := db.Beginx()
+/Users/lvpeng/eme/models/role.go:19 (0x12c94b8)
+	RoleAdd: tx := DB.MustBegin()
+/Users/lvpeng/eme/controllers/role.go:22 (0x1554ca2)
+	RoleAdd: id, err := models.RoleAdd(&role)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f609)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/logger.go:240 (0x1551650)
+	LoggerWithConfig.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f609)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/recovery.go:83 (0x15525a9)
+	RecoveryWithWriter.func1: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 (0x153f609)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:389 (0x1548af1)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lvpeng/gospace/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go:351 (0x1548323)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:2774 (0x134c617)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/Cellar/go/1.12.6/libexec/src/net/http/server.go:1878 (0x1348200)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/Cellar/go/1.12.6/libexec/src/runtime/asm_amd64.s:1337 (0x105a5a0)
+	goexit: BYTE	$0x90	// NOP
+[0m
+2019/06/18 14:40:11 endless.go:217: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/18 14:40:11 main.go:35: Server err: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/18 14:40:22 endless.go:217: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/18 14:40:22 main.go:35: Server err: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/18 14:40:24 endless.go:341: 87122 Received SIGINT.
+2019/06/18 14:40:24 endless.go:196: 87122 Waiting for connections to finish...
+2019/06/18 14:40:24 endless.go:199: 87122 Serve() returning...
+2019/06/18 14:40:24 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:40:24 endless.go:385: 87122 [::]:80 Listener closed.
+2019/06/18 14:40:28 main.go:29: Actual pid is 87468
+2019/06/18 14:40:44 endless.go:341: 87468 Received SIGINT.
+2019/06/18 14:40:44 endless.go:196: 87468 Waiting for connections to finish...
+2019/06/18 14:40:44 endless.go:199: 87468 Serve() returning...
+2019/06/18 14:40:44 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:40:44 endless.go:385: 87468 [::]:80 Listener closed.
+2019/06/18 14:42:14 main.go:29: Actual pid is 87682
+[GIN] 2019/06/18 - 14:42:53 | 200 |     507.118µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:42:58 | 200 |     928.639µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:43:12 | 200 |    1.051862ms |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:43:13 | 200 |     959.006µs |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:43:13 | 200 |    1.247431ms |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:43:14 | 200 |    1.810869ms |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:43:15 | 200 |    1.110148ms |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:43:16 | 200 |    1.057347ms |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:43:20 | 200 |    1.047035ms |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:43:30 | 200 |    1.386047ms |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:43:37 | 200 |    1.218732ms |             ::1 | POST     /v1/role/add
+[GIN] 2019/06/18 - 14:43:38 | 200 |    1.044777ms |             ::1 | POST     /v1/role/add
+2019/06/18 14:45:41 endless.go:341: 87682 Received SIGINT.
+2019/06/18 14:45:41 endless.go:385: 87682 [::]:80 Listener closed.
+2019/06/18 14:45:41 endless.go:196: 87682 Waiting for connections to finish...
+2019/06/18 14:45:41 endless.go:199: 87682 Serve() returning...
+2019/06/18 14:45:41 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 14:46:12 main.go:29: Actual pid is 87849
+[GIN] 2019/06/18 - 14:46:57 | 200 |    2.291206ms |             ::1 | POST     /v1/role/add
+2019/06/18 15:44:54 endless.go:341: 87849 Received SIGINT.
+2019/06/18 15:44:54 endless.go:196: 87849 Waiting for connections to finish...
+2019/06/18 15:44:54 endless.go:199: 87849 Serve() returning...
+2019/06/18 15:44:54 endless.go:385: 87849 [::]:80 Listener closed.
+2019/06/18 15:44:54 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 16:47:12 main.go:29: Actual pid is 93457
+[GIN] 2019/06/18 - 16:47:17 | 200 |     448.483µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 16:47:17 | 200 |    6.794274ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 16:47:17 | 200 |   11.800847ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 16:47:17 | 200 |  241.438347ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 16:47:17 | 200 |      68.623µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 16:47:17 | 200 |      276.29µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 16:47:17 | 200 |   63.937001ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 16:47:17 | 200 |        57.8µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 16:47:18 | 200 |  531.246803ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/18 16:48:08 endless.go:341: 93457 Received SIGINT.
+2019/06/18 16:48:08 endless.go:196: 93457 Waiting for connections to finish...
+2019/06/18 16:48:08 endless.go:385: 93457 [::]:80 Listener closed.
+2019/06/18 16:48:08 endless.go:199: 93457 Serve() returning...
+2019/06/18 16:48:08 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 16:48:40 main.go:29: Actual pid is 93534
+[GIN] 2019/06/18 - 16:48:46 | 200 |     411.631µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 16:48:46 | 200 |   21.806377ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 16:48:46 | 200 |   14.761717ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 16:48:46 | 200 |  220.662328ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 16:48:46 | 200 |     112.429µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 16:48:47 | 200 |     309.347µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 16:48:47 | 200 |  111.426723ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 16:48:47 | 200 |       59.72µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 16:48:47 | 200 |  461.490842ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 16:49:05 | 200 |      61.399µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 16:49:05 | 304 |      44.843µs |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 16:49:05 | 304 |       39.08µs |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 16:49:05 | 304 |      46.342µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 16:49:05 | 304 |      40.566µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 16:49:05 | 304 |      59.877µs |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 16:49:05 | 304 |       93.78µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 16:49:05 | 200 |     210.807µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 16:49:06 | 200 |      92.917µs |             ::1 | GET      /swagger/favicon-32x32.png
+2019/06/18 16:50:00 endless.go:341: 93534 Received SIGINT.
+2019/06/18 16:50:00 endless.go:196: 93534 Waiting for connections to finish...
+2019/06/18 16:50:00 endless.go:199: 93534 Serve() returning...
+2019/06/18 16:50:00 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 16:50:06 main.go:29: Actual pid is 93709
+[GIN] 2019/06/18 - 16:50:07 | 200 |     494.361µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 16:50:07 | 200 |     9.29321ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 16:50:07 | 200 |   12.356589ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 16:50:08 | 200 |  192.404904ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 16:50:10 | 200 |      62.916µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 16:50:10 | 200 |     429.735µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 16:50:10 | 200 |  104.965503ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 16:50:10 | 200 |      58.543µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 16:50:11 | 200 |  533.574822ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 16:50:16 | 200 |     757.734µs |             ::1 | GET      /v1/role/get
+2019/06/18 16:52:42 endless.go:341: 93709 Received SIGINT.
+2019/06/18 16:52:42 endless.go:196: 93709 Waiting for connections to finish...
+2019/06/18 16:52:42 endless.go:199: 93709 Serve() returning...
+2019/06/18 16:52:42 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 16:52:49 main.go:29: Actual pid is 94026
+[GIN] 2019/06/18 - 16:52:53 | 200 |      532.99µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 16:52:53 | 200 |   18.931053ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 16:52:53 | 200 |   17.564169ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 16:52:53 | 200 |  218.989966ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 16:52:53 | 200 |      82.857µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 16:52:53 | 200 |     296.021µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 16:52:53 | 200 |   53.230164ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 16:52:54 | 200 |      74.529µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 16:52:54 | 200 |  436.250227ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 16:53:06 | 404 |         292ns |             ::1 | GET      /v1/role/get/{id}
+2019/06/18 16:53:16 endless.go:341: 94026 Received SIGINT.
+2019/06/18 16:53:16 endless.go:196: 94026 Waiting for connections to finish...
+2019/06/18 16:53:16 endless.go:199: 94026 Serve() returning...
+2019/06/18 16:53:16 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 16:53:16 endless.go:385: 94026 [::]:80 Listener closed.
+2019/06/18 16:55:10 main.go:29: Actual pid is 94207
+[GIN] 2019/06/18 - 16:55:15 | 200 |     455.358µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 16:55:15 | 200 |    8.609228ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 16:55:15 | 200 |    6.298652ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 16:55:15 | 200 |  276.749629ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 16:55:15 | 200 |     103.468µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 16:55:15 | 200 |     314.825µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 16:55:15 | 200 |   58.244897ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 16:55:16 | 200 |      60.157µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 16:55:16 | 200 |  525.790528ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/18 16:55:50 endless.go:341: 94207 Received SIGINT.
+2019/06/18 16:55:50 endless.go:196: 94207 Waiting for connections to finish...
+2019/06/18 16:55:50 endless.go:199: 94207 Serve() returning...
+2019/06/18 16:55:50 endless.go:385: 94207 [::]:80 Listener closed.
+2019/06/18 16:55:50 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 16:55:55 main.go:29: Actual pid is 94299
+[GIN] 2019/06/18 - 16:55:58 | 200 |     468.556µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 16:55:58 | 200 |    8.333562ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 16:55:58 | 200 |    8.116947ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 16:55:58 | 200 |  246.884708ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 16:55:58 | 200 |       89.74µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 16:55:59 | 200 |     284.969µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 16:55:59 | 200 |   74.167768ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 16:55:59 | 200 |       72.08µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 16:55:59 | 200 |  588.222736ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 16:56:05 | 404 |         243ns |             ::1 | GET      /v1/role/get/undefined
+[GIN] 2019/06/18 - 16:56:26 | 404 |         289ns |             ::1 | GET      /v1/role/get/1
+2019/06/18 17:21:08 endless.go:341: 94299 Received SIGINT.
+2019/06/18 17:21:08 endless.go:385: 94299 [::]:80 Listener closed.
+2019/06/18 17:21:08 endless.go:196: 94299 Waiting for connections to finish...
+2019/06/18 17:21:08 endless.go:199: 94299 Serve() returning...
+2019/06/18 17:21:08 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 17:21:15 main.go:29: Actual pid is 96486
+[GIN] 2019/06/18 - 17:21:18 | 200 |     754.024µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 17:21:18 | 200 |   11.449219ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 17:21:18 | 200 |   11.094487ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 17:21:18 | 200 |  240.327348ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 17:21:18 | 200 |     115.867µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 17:21:19 | 200 |     362.115µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 17:21:19 | 200 |   60.481352ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 17:21:19 | 200 |      91.605µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 17:21:19 | 200 |  509.762863ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/18 17:21:43 endless.go:341: 96486 Received SIGINT.
+2019/06/18 17:21:43 endless.go:385: 96486 [::]:80 Listener closed.
+2019/06/18 17:21:43 endless.go:196: 96486 Waiting for connections to finish...
+2019/06/18 17:21:43 endless.go:199: 96486 Serve() returning...
+2019/06/18 17:21:43 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 17:21:49 main.go:29: Actual pid is 96567
+[GIN] 2019/06/18 - 17:21:50 | 200 |     444.627µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 17:21:50 | 200 |   13.084784ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 17:21:50 | 200 |   10.638447ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 17:21:51 | 200 |  211.010002ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 17:21:51 | 200 |     127.358µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 17:21:51 | 200 |   60.714116ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 17:21:51 | 200 |      446.47µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 17:21:51 | 200 |      45.409µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 17:21:52 | 200 |  797.416441ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 17:22:01 | 200 |     946.894µs |             ::1 | GET      /v1/role
+[GIN] 2019/06/18 - 17:22:25 | 200 |     546.953µs |             ::1 | GET      /v1/role/12
+2019/06/18 17:27:40 endless.go:341: 96567 Received SIGINT.
+2019/06/18 17:27:40 endless.go:196: 96567 Waiting for connections to finish...
+2019/06/18 17:27:40 endless.go:199: 96567 Serve() returning...
+2019/06/18 17:27:40 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 17:27:40 endless.go:385: 96567 [::]:80 Listener closed.
+2019/06/18 17:27:47 main.go:29: Actual pid is 97136
+[GIN] 2019/06/18 - 17:27:49 | 200 |     907.008µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 17:27:49 | 200 |    9.229619ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 17:27:49 | 200 |      699.38µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 17:27:49 | 200 |  292.446231ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 17:27:49 | 200 |      83.835µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 17:27:50 | 200 |     394.748µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 17:27:50 | 200 |  107.945672ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 17:27:50 | 200 |      48.383µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 17:27:50 | 200 |    606.8723ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 17:28:01 | 200 |     577.907µs |             ::1 | GET      /v1/role/1
+[GIN] 2019/06/18 - 17:28:07 | 200 |     608.471µs |             ::1 | GET      /v1/role/2
+[GIN] 2019/06/18 - 18:21:01 | 200 |    2.019955ms |             ::1 | GET      /v1/role
+[GIN] 2019/06/18 - 18:21:23 | 200 |     620.566µs |             ::1 | GET      /v1/role/10
+2019/06/18 18:37:49 endless.go:341: 97136 Received SIGINT.
+2019/06/18 18:37:49 endless.go:196: 97136 Waiting for connections to finish...
+2019/06/18 18:37:49 endless.go:199: 97136 Serve() returning...
+2019/06/18 18:37:49 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 18:37:49 endless.go:385: 97136 [::]:80 Listener closed.
+2019/06/18 18:37:55 main.go:29: Actual pid is 99330
+[GIN] 2019/06/18 - 18:38:25 | 200 |     462.613µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 18:38:25 | 200 |    9.539482ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 18:38:25 | 200 |    8.188818ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 18:38:25 | 200 |  227.350084ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 18:38:25 | 200 |      59.914µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 18:38:25 | 200 |     521.689µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 18:38:25 | 200 |   72.362467ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 18:38:26 | 200 |      59.722µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 18:38:26 | 200 |  589.541021ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 18:38:45 | 200 |    2.486512ms |             ::1 | DELETE   /v1/role
+2019/06/18 18:40:56 endless.go:341: 99330 Received SIGINT.
+2019/06/18 18:40:56 endless.go:196: 99330 Waiting for connections to finish...
+2019/06/18 18:40:56 endless.go:199: 99330 Serve() returning...
+2019/06/18 18:40:56 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 18:40:56 endless.go:385: 99330 [::]:80 Listener closed.
+2019/06/18 18:41:00 main.go:29: Actual pid is 99557
+[GIN] 2019/06/18 - 18:41:04 | 200 |     143.835µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 18:41:58 | 200 |     491.477µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 18:41:58 | 200 |    9.149321ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 18:41:58 | 200 |     572.036µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 18:41:59 | 200 |  206.570492ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 18:41:59 | 200 |      104.88µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 18:41:59 | 200 |     395.798µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 18:41:59 | 200 |     51.2461ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 18:41:59 | 200 |      59.435µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 18:41:59 | 200 |  439.851623ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 18:42:05 | 200 |      14.738µs |             ::1 | DELETE   /v1/role
+2019/06/18 18:43:12 endless.go:341: 99557 Received SIGINT.
+2019/06/18 18:43:12 endless.go:196: 99557 Waiting for connections to finish...
+2019/06/18 18:43:12 endless.go:199: 99557 Serve() returning...
+2019/06/18 18:43:12 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 18:43:12 endless.go:385: 99557 [::]:80 Listener closed.
+2019/06/18 18:43:15 main.go:29: Actual pid is 139
+[GIN] 2019/06/18 - 18:43:17 | 200 |      510.92µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 18:43:17 | 200 |    8.502968ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 18:43:17 | 200 |    4.718946ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 18:43:17 | 200 |  207.053242ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 18:43:17 | 200 |      66.016µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 18:43:18 | 200 |      356.07µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 18:43:18 | 200 |   68.415472ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 18:43:18 | 200 |      50.995µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 18:43:18 | 200 |   489.40717ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 18:43:23 | 200 |     112.452µs |             ::1 | DELETE   /v1/role
+2019/06/18 18:44:38 endless.go:341: 139 Received SIGINT.
+2019/06/18 18:44:38 endless.go:196: 139 Waiting for connections to finish...
+2019/06/18 18:44:38 endless.go:199: 139 Serve() returning...
+2019/06/18 18:44:38 endless.go:385: 139 [::]:80 Listener closed.
+2019/06/18 18:44:38 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 18:44:42 main.go:29: Actual pid is 505
+[GIN] 2019/06/18 - 18:44:56 | 200 |      41.046µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 18:44:58 | 200 |      25.178µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 18:48:18 | 200 |     810.094µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 18:48:18 | 200 |     8.53147ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 18:48:18 | 200 |    4.988313ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 18:48:19 | 200 |  187.254733ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 18:48:19 | 200 |      63.495µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 18:48:19 | 200 |     504.869µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 18:48:19 | 200 |  116.076578ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 18:48:19 | 200 |      58.361µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 18:48:19 | 200 |  507.421394ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+2019/06/18 18:48:25 endless.go:341: 505 Received SIGINT.
+2019/06/18 18:48:25 endless.go:196: 505 Waiting for connections to finish...
+2019/06/18 18:48:25 endless.go:199: 505 Serve() returning...
+2019/06/18 18:48:25 endless.go:385: 505 [::]:80 Listener closed.
+2019/06/18 18:48:25 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 18:48:31 main.go:29: Actual pid is 793
+[GIN] 2019/06/18 - 18:48:33 | 200 |     434.507µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 18:48:33 | 200 |     396.834µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 18:48:34 | 200 |    6.875774ms |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 18:48:42 | 200 |      31.281µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 18:51:00 | 200 |      23.423µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 18:51:01 | 200 |      24.689µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 18:51:02 | 200 |       30.14µs |             ::1 | DELETE   /v1/role
+2019/06/18 18:51:27 endless.go:341: 793 Received SIGINT.
+2019/06/18 18:51:27 endless.go:196: 793 Waiting for connections to finish...
+2019/06/18 18:51:27 endless.go:199: 793 Serve() returning...
+2019/06/18 18:51:27 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 18:56:34 main.go:29: Actual pid is 910
+[GIN] 2019/06/18 - 18:56:59 | 200 |      69.895µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 18:57:12 | 200 |         198µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 18:57:36 | 200 |      29.523µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 18:57:41 | 200 |      64.723µs |             ::1 | DELETE   /v1/role
+2019/06/18 19:00:02 endless.go:341: 910 Received SIGINT.
+2019/06/18 19:00:02 endless.go:196: 910 Waiting for connections to finish...
+2019/06/18 19:00:02 endless.go:199: 910 Serve() returning...
+2019/06/18 19:00:02 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 19:00:02 endless.go:385: 910 [::]:80 Listener closed.
+2019/06/18 19:00:08 main.go:29: Actual pid is 1237
+[GIN] 2019/06/18 - 19:00:08 | 200 |     590.842µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 19:00:08 | 200 |    8.773723ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 19:00:08 | 200 |     660.609µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 19:00:08 | 200 |  235.966187ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 19:00:09 | 200 |      67.282µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 19:00:09 | 200 |   87.363413ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 19:00:09 | 200 |     677.875µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 19:00:10 | 200 |      47.869µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 19:00:10 | 200 |  764.166822ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 19:00:18 | 200 |      38.895µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 19:00:38 | 200 |    7.871233ms |             ::1 | POST     /v1/role
+2019/06/18 19:02:36 endless.go:341: 1237 Received SIGINT.
+2019/06/18 19:02:36 endless.go:196: 1237 Waiting for connections to finish...
+2019/06/18 19:02:36 endless.go:199: 1237 Serve() returning...
+2019/06/18 19:02:36 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 19:02:42 main.go:29: Actual pid is 1617
+[GIN] 2019/06/18 - 19:02:44 | 200 |     552.051µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 19:02:44 | 200 |   10.897764ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 19:02:44 | 200 |   10.637087ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 19:02:44 | 200 |  180.570029ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 19:02:45 | 200 |      50.833µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 19:02:45 | 200 |    1.557192ms |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 19:02:45 | 200 |   90.173726ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 19:02:45 | 200 |       57.59µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 19:02:46 | 200 |  631.280142ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 19:02:53 | 200 |      40.073µs |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 19:03:48 | 200 |      52.861µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 19:03:48 | 200 |    3.638519ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 19:03:48 | 200 |   13.063383ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 19:03:48 | 200 |  149.216464ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 19:03:49 | 304 |      76.457µs |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 19:03:49 | 200 |     296.716µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 19:03:49 | 304 |      39.496µs |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 19:03:49 | 304 |      31.915µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 19:03:49 | 200 |     116.698µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 19:03:56 | 200 |      31.706µs |             ::1 | DELETE   /v1/role
+2019/06/18 19:04:04 endless.go:341: 1617 Received SIGINT.
+2019/06/18 19:04:04 endless.go:196: 1617 Waiting for connections to finish...
+2019/06/18 19:04:04 endless.go:199: 1617 Serve() returning...
+2019/06/18 19:04:04 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/18 19:04:04 endless.go:385: 1617 [::]:80 Listener closed.
+2019/06/18 19:04:08 main.go:29: Actual pid is 1790
+[GIN] 2019/06/18 - 19:04:12 | 404 |         334ns |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 19:04:14 | 404 |         186ns |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 19:04:15 | 404 |         176ns |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 19:04:28 | 200 |      281.35µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/18 - 19:04:28 | 200 |    11.48679ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/18 - 19:04:28 | 200 |     8.81831ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/18 - 19:04:28 | 200 |  227.746171ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/18 - 19:04:28 | 200 |      73.181µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/18 - 19:04:29 | 200 |   58.472685ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/18 - 19:04:29 | 200 |     309.118µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/18 - 19:04:29 | 200 |      55.818µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/18 - 19:04:29 | 200 |  432.417929ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/18 - 19:04:49 | 404 |         142ns |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 19:04:53 | 404 |         247ns |             ::1 | DELETE   /v1/role
+[GIN] 2019/06/18 - 19:04:54 | 404 |         258ns |             ::1 | DELETE   /v1/role
+2019/06/19 09:25:30 endless.go:341: 1790 Received SIGINT.
+2019/06/19 09:25:30 endless.go:196: 1790 Waiting for connections to finish...
+2019/06/19 09:25:30 endless.go:199: 1790 Serve() returning...
+2019/06/19 09:25:30 main.go:35: Server err: accept tcp [::]:80: use of closed network connection
+2019/06/19 09:25:30 endless.go:385: 1790 [::]:80 Listener closed.
