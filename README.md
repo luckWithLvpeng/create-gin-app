@@ -10,9 +10,9 @@ gin 作为 server 初始化golang项目
 
 ### swagger 自动化api文档
 1. 添加 [swag](https://github.com/swaggo/gin-swagger) 接口, [swag文档](https://swaggo.github.io/swaggo.io/declarative_comments_format/)
-2. 下载 [Swag](https://github.com/swaggo/swag) 包:
+2. 安装 [Swag](https://github.com/swaggo/swag) 命令:
 ```sh
-$ go get -u github.com/swaggo/swag/cmd/swag
+$ go install github.com/swaggo/swag/cmd/swag
 ```
 3. 执行 [Swag](https://github.com/swaggo/swag) 命令，在有 `main.go` 文件的根目录, [Swag](https://github.com/swaggo/swag) 将会格式化注释并生成文档在`docs` 目录 和 `docs/doc.go`文件
 ```sh
