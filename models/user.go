@@ -1,7 +1,6 @@
 package models
 
 import (
-	"fmt"
 	"log"
 	"time"
 )
@@ -38,9 +37,13 @@ func (User) TableName() string {
 //UserGet 获取用户
 func UserGet(nowPage int, pageSize int) ([]User, error) {
 	//tx := DB.MustBegin()
-
-	return nil, nil
-
+	var users []User
+	db := db.Offset((nowPage-1) * pageSize).Limit(pageSize).Find(&users)
+	if db.Error != nil {
+		log.Printf("find user error: %v\n", err)
+		return nil, db.Error
+	}
+	return users, nil
 }
 
 //UserAdd 添加用户
@@ -48,12 +51,10 @@ func UserAdd(u *User) (int64, error) {
 	var role Role
 	u.LastLoginAt = time.Now()
 	db := db.Model(&u).Related(&role)
-	fmt.Printf("%+v\n", role)
 	if db.Error != nil {
-		log.Printf("can not find the role of user: %v\n", err)
+		log.Printf("can not find the role of user: %v\n",  db.Error)
 		return 0, db.Error
 	}
-	fmt.Printf("%+v\n", u)
 	db = db.Create(&u)
 	if db.Error != nil {
 		log.Printf("creat user error: %v\n", err)

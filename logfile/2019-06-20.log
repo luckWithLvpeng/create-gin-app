@@ -147,3 +147,25 @@
 2019/06/20 15:40:33 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:199: 26427 Serve() returning...
 2019/06/20 15:40:33 /Users/lvpeng/eme/main.go:36: Server err: accept tcp [::]:80: use of closed network connection
 2019/06/20 15:40:36 /Users/lvpeng/eme/main.go:30: Actual pid is 26584
+2019/06/20 16:35:13 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:217: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/20 16:35:13 /Users/lvpeng/eme/main.go:36: Server err: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/20 16:35:53 /Users/lvpeng/gospace/pkg/mod/github.com/fvbock/endless@v0.0.0-20170109170031-447134032cb6/endless.go:217: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/20 16:35:53 /Users/lvpeng/eme/main.go:36: Server err: net.Listen error: listen tcp :80: bind: address already in use
+2019/06/20 16:36:44 /Users/lvpeng/eme/main.go:30: Actual pid is 36063
+[GIN] 2019/06/20 - 16:38:50 | 200 |      470.18µs |             ::1 | GET      /swagger/index.html
+[GIN] 2019/06/20 - 16:38:50 | 200 |    9.995223ms |             ::1 | GET      /swagger/swagger-ui.css
+[GIN] 2019/06/20 - 16:38:50 | 200 |    4.604064ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js
+[GIN] 2019/06/20 - 16:38:50 | 200 |  246.787941ms |             ::1 | GET      /swagger/swagger-ui-bundle.js
+[GIN] 2019/06/20 - 16:38:51 | 200 |      83.708µs |             ::1 | GET      /swagger/swagger-ui.css.map
+[GIN] 2019/06/20 - 16:38:51 | 200 |     705.495µs |             ::1 | GET      /swagger/doc.json
+[GIN] 2019/06/20 - 16:38:51 | 200 |   80.702182ms |             ::1 | GET      /swagger/swagger-ui-standalone-preset.js.map
+[GIN] 2019/06/20 - 16:38:51 | 200 |      69.164µs |             ::1 | GET      /swagger/favicon-32x32.png
+[GIN] 2019/06/20 - 16:38:51 | 200 |  530.095715ms |             ::1 | GET      /swagger/swagger-ui-bundle.js.map
+[GIN] 2019/06/20 - 16:38:59 | 200 |   16.204346ms |             ::1 | GET      /v1/users
+[GIN] 2019/06/20 - 16:39:03 | 200 |     448.732µs |             ::1 | GET      /v1/users
+[GIN] 2019/06/20 - 16:39:04 | 200 |     612.236µs |             ::1 | GET      /v1/users
+[GIN] 2019/06/20 - 16:39:09 | 200 |     737.064µs |             ::1 | GET      /v1/role
+2019/06/20 16:39:19 /Users/lvpeng/eme/models/user.go:55: can not find the role of user: <nil>
+[GIN] 2019/06/20 - 16:39:19 | 200 |     1.05289ms |             ::1 | POST     /v1/users
+[GIN] 2019/06/20 - 16:40:05 | 200 |    4.323894ms |             ::1 | POST     /v1/users
+[GIN] 2019/06/20 - 16:40:10 | 200 |     539.399µs |             ::1 | GET      /v1/users
