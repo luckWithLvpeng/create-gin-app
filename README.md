@@ -2,9 +2,10 @@
 
 gin 作为 server 初始化golang项目
 
-## Overview
+## Features
+* `conf/app.con`配置app相关参数，可以设置日志保存目录，和当发生重大错误(panic)时，日志保存文件 `error.log`。
 * 引入[fvbock/endless](https://github.com/fvbock/endless),支持热更新，优雅重启，无缝更新代码
-* 通过 [go-ini/ini](https://github.com/go-ini/ini)，支持配置文件的读写，[文档地址](https://ini.unknwon.io/docs/intro/getting_started)
+* 日志 [go-ini/ini](https://github.com/go-ini/ini)，支持配置文件的读写，[文档地址](https://ini.unknwon.io/docs/intro/getting_started)
 * [gin](https://github.com/gin-gonic/gin/blob/master/README.md)是golang目前最快的路由框架，[文档](https://gin-gonic.com/docs/)，[示例代码](https://github.com/gin-gonic/examples)
 * 数据库操作 [jinzhu/gorm](https://github.com/jinzhu/gorm) , [english doc](https://gorm.io/docs/), [中文文档](https://jasperxu.github.io/gorm-zh/database.html#m)
 
