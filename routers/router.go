@@ -24,13 +24,16 @@ func InitRouter() *gin.Engine {
 
 	apiv1 := r.Group("/v1")
 	{
-		apiv1.GET("/users", controllers.UserGet)
-		apiv1.POST("/users", controllers.UserAdd)
+		apiv1.GET("/user", controllers.UserGet)
+		apiv1.GET("/user/:id", controllers.UserGetByID)
+		apiv1.DELETE("/user/:id", controllers.UserDeleteByID)
+		apiv1.PUT("/user/:id", controllers.UserUpdate)
+		apiv1.POST("/user", controllers.UserAdd)
 
 		apiv1.GET("/role", controllers.RoleGet)
 		apiv1.GET("/role/:id", controllers.RoleGetByID)
 		apiv1.POST("/role", controllers.RoleAdd)
-		apiv1.PUT("/role", controllers.RoleUpdate)
+		apiv1.PUT("/role/:id", controllers.RoleUpdate)
 		apiv1.DELETE("/role/:id", controllers.RoleDel)
 	}
 	return r

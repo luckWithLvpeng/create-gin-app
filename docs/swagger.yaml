@@ -29,6 +29,15 @@ definitions:
       username:
         type: string
     type: object
+  models.UserForUpdate:
+    properties:
+      email:
+        type: string
+      mobile:
+        type: string
+      roleID:
+        type: integer
+    type: object
 host: '{{.Host}}'
 info:
   contact: {}
@@ -68,26 +77,6 @@ paths:
       summary: 添加角色
       tags:
       - role
-    put:
-      consumes:
-      - application/json
-      parameters:
-      - description: role json
-        in: body
-        name: body
-        required: true
-        schema:
-          $ref: '#/definitions/models.RoleForAdd'
-          type: object
-      responses:
-        "200":
-          description: OK
-          schema:
-            $ref: '#/definitions/controllers.Response'
-            type: object
-      summary: 编辑角色
-      tags:
-      - role
   /role/{id}:
     delete:
       consumes:
@@ -123,7 +112,32 @@ paths:
       summary: 获取单个角色
       tags:
       - role
-  /users:
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: role json
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/models.RoleForAdd'
+          type: object
+      - description: role id
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.Response'
+            type: object
+      summary: 编辑角色
+      tags:
+      - role
+  /user:
     get:
       consumes:
       - application/json
@@ -162,6 +176,67 @@ paths:
             $ref: '#/definitions/controllers.Response'
             type: object
       summary: 添加用户
+      tags:
+      - user
+  /user/{id}:
+    delete:
+      consumes:
+      - application/json
+      parameters:
+      - description: user id
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.Response'
+            type: object
+      summary: 删除单个用户
+      tags:
+      - user
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: user id
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.Response'
+            type: object
+      summary: 获取单个用户
+      tags:
+      - user
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: user id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: user for update
+        in: body
+        name: body
+        schema:
+          $ref: '#/definitions/models.UserForUpdate'
+          type: object
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.Response'
+            type: object
+      summary: 更新用户
       tags:
       - user
 swagger: "2.0"

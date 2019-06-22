@@ -1,11 +1,13 @@
 package models
 
-import "github.com/pkg/errors"
+import (
+	"github.com/pkg/errors"
+)
 
 // Role 角色
 type Role struct {
-	ID          int64 `gorm:"primary_key"`
-	RoleName    string `gorm:"unique"`
+	ID          int64  `gorm:"primary_key"`
+	RoleName    string `gorm:"unique;not null"`
 	Description string
 }
 
@@ -15,6 +17,7 @@ type RoleForAdd struct {
 	Description string
 }
 
+// TableName 获取表名
 func (Role) TableName() string {
 	return "roles"
 }
@@ -22,48 +25,57 @@ func (Role) TableName() string {
 // RoleGetByID 获取单个角色
 func RoleGetByID(id int) (*Role, error) {
 	var role Role
-	db := db.First(&role, id)
-	if db.Error != nil {
-		return nil, db.Error
+	DB := db
+	DB = DB.First(&role, id)
+	if DB.Error != nil {
+		return nil, DB.Error
 	}
-	return &role, err
+	return &role, nil
 }
 
 // RoleGet 获取所有角色
 func RoleGet() ([]*Role, error) {
 	var roles []*Role
-	db := db.Find(&roles)
-	if db.Error != nil {
-		return nil, db.Error
+	DB := db
+	DB = DB.Find(&roles)
+	if DB.Error != nil {
+		return nil, DB.Error
 	}
-	return roles, err
+	return roles, nil
 }
 
 // RoleDel 删除角色
 func RoleDel(id int) (int64, error) {
 	role := Role{ID: int64(id)}
-	db := db.Delete(&role)
-	if db.Error != nil {
-		return 0, db.Error
+	DB := db
+	DB = DB.Delete(&role)
+	if DB.Error != nil {
+		return 0, DB.Error
 	}
-	return db.RowsAffected, err
+	return DB.RowsAffected, nil
 }
 
 // RoleUpdate 编辑角色
 func RoleUpdate(r *Role) (int64, error) {
-	db := db.Save(&r)
-	if db.Error != nil {
-		return 0, db.Error
+	role := Role{ID: r.ID}
+	DB := db
+	DB = DB.First(&role)
+	if role.RoleName == "" {
+		return 0, errors.New("can not find the role")
 	}
-	return db.RowsAffected, nil
+	DB = DB.Save(&r)
+	if DB.Error != nil {
+		return 0, DB.Error
+	}
+	return DB.RowsAffected, nil
 
 }
 
 // RoleAdd 添加角色
 func RoleAdd(r *Role) (int64, error) {
 	var role Role
-	db.Where("role_name = ?",r.RoleName).First(&role)
-	if role.ID > 0{
+	db.Where("role_name = ?", r.RoleName).First(&role)
+	if role.ID > 0 {
 		return 0, errors.New("role already exist")
 	}
 	db := db.Create(&r)

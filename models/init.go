@@ -14,8 +14,8 @@ import (
 
 var (
 	// DB 数据库链接池
-	db  *gorm.DB
-	err error
+	db          *gorm.DB
+	initDbError error
 	// 是否初始化数据库
 	syncdb bool
 )
@@ -34,10 +34,10 @@ func initDB() {
 	host := sec.Key("host").MustString("0.0.0.0:3306")
 	database := sec.Key("database").MustString("emedb")
 	url := fmt.Sprintf("%s:%s@(%s)/?charset=utf8&parseTime=True&loc=Local", user, password, host)
-	db, err = gorm.Open("mysql", url)
+	db, initDbError = gorm.Open("mysql", url)
 
-	if err != nil {
-		log.Fatalf("connect database %s error: %v\n", url, err)
+	if initDbError != nil {
+		log.Fatalf("connect database %s error: %v\n", url, initDbError)
 	}
 	if syncdb {
 		db = db.Exec(fmt.Sprintf("drop database %s", database))

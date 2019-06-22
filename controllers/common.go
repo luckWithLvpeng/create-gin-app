@@ -17,9 +17,9 @@ const (
 )
 
 var mapMsg = map[int]string{
-	Success:       "ok :",
-	Error:         "failed :",
-	InvalidParams: "请求参数错误 :",
+	Success:       "ok",
+	Error:         "failed: ",
+	InvalidParams: "请求参数错误: ",
 }
 
 // GetMsg   返回错误信息

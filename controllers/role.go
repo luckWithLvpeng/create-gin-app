@@ -25,7 +25,7 @@ func RoleGetByID(c *gin.Context) {
 		})
 		return
 	}
-	data, err := models.RoleGetByID(id)
+	role, err := models.RoleGetByID(id)
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
 			Code: Error,
@@ -38,7 +38,7 @@ func RoleGetByID(c *gin.Context) {
 	c.JSON(http.StatusOK, Response{
 		Code: Success,
 		Msg:  GetMsg(Success),
-		Data: data,
+		Data: role,
 	})
 
 }
@@ -108,11 +108,11 @@ func RoleAdd(c *gin.Context) {
 // @Tags role
 // @Accept json
 // @Param body body models.RoleForAdd true "role json"
+// @Param id path int true "role id"
 // @Success 200 {object} controllers.Response
-// @Router /role [put]
+// @Router /role/{id} [put]
 func RoleUpdate(c *gin.Context) {
-	var role models.Role
-	err := c.ShouldBindJSON(&role)
+	id, err := strconv.Atoi(c.Param("id"))
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
 			Code: InvalidParams,
@@ -121,6 +121,17 @@ func RoleUpdate(c *gin.Context) {
 		})
 		return
 	}
+	var role models.Role
+	err = c.ShouldBindJSON(&role)
+	if err != nil {
+		c.JSON(http.StatusOK, Response{
+			Code: InvalidParams,
+			Msg:  GetMsg(InvalidParams) + err.Error(),
+			Data: nil,
+		})
+		return
+	}
+	role.ID = int64(id)
 	num, err := models.RoleUpdate(&role)
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
@@ -149,7 +160,7 @@ func RoleUpdate(c *gin.Context) {
 // @Router /role/{id} [delete]
 func RoleDel(c *gin.Context) {
 	id, err := strconv.Atoi(c.Param("id"))
-	if err != nil || id <=0 {
+	if err != nil || id <= 0 {
 		c.JSON(http.StatusOK, Response{
 			Code: InvalidParams,
 			Msg:  GetMsg(InvalidParams) + err.Error(),
