@@ -5,6 +5,7 @@ import (
 	"strconv"
 
 	"eme/models"
+	"eme/pkg/code"
 
 	"github.com/gin-gonic/gin"
 )
@@ -12,6 +13,7 @@ import (
 // RoleGetByID role get by id
 // @Summary 获取单个角色
 // @Tags role
+// @Security ApiKeyAuth
 // @Param id path int true  "角色 id"
 // @Success 200 {object} controllers.Response
 // @Router /role/{id} [get]
@@ -19,25 +21,25 @@ func RoleGetByID(c *gin.Context) {
 	id, err := strconv.Atoi(c.Param("id"))
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
-			Code: InvalidParams,
-			Msg:  GetMsg(InvalidParams) + err.Error(),
+			Code: code.InvalidParams,
+			Msg:  code.GetMsg(code.InvalidParams) + err.Error(),
 			Data: nil,
 		})
 		return
 	}
-	role, err := models.RoleGetByID(id)
+	ecode, role, err := models.RoleGetByID(id)
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
-			Code: Error,
-			Msg:  GetMsg(Error) + err.Error(),
+			Code: ecode,
+			Msg:  code.GetMsg(ecode) + err.Error(),
 			Data: nil,
 		})
 		return
 
 	}
 	c.JSON(http.StatusOK, Response{
-		Code: Success,
-		Msg:  GetMsg(Success),
+		Code: ecode,
+		Msg:  code.GetMsg(ecode),
 		Data: role,
 	})
 
@@ -46,21 +48,22 @@ func RoleGetByID(c *gin.Context) {
 // RoleGet role get
 // @Summary 获取所有角色
 // @Tags role
+// @Security ApiKeyAuth
 // @Success 200 {object} controllers.Response
 // @Router /role [get]
 func RoleGet(c *gin.Context) {
-	data, err := models.RoleGet()
+	ecode, data, err := models.RoleGet()
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
-			Code: Error,
-			Msg:  GetMsg(Error) + err.Error(),
+			Code: ecode,
+			Msg:  code.GetMsg(ecode) + err.Error(),
 			Data: nil,
 		})
 		return
 	}
 	c.JSON(http.StatusOK, Response{
-		Code: Success,
-		Msg:  GetMsg(Success),
+		Code: ecode,
+		Msg:  code.GetMsg(ecode),
 		Data: data,
 	})
 
@@ -70,6 +73,7 @@ func RoleGet(c *gin.Context) {
 // @Summary 添加角色
 // @Tags role
 // @Accept json
+// @Security ApiKeyAuth
 // @Param body body models.RoleForAdd true "role json"
 // @Success 200 {object} controllers.Response
 // @Router /role [post]
@@ -78,24 +82,24 @@ func RoleAdd(c *gin.Context) {
 	err := c.ShouldBindJSON(&role)
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
-			Code: InvalidParams,
-			Msg:  GetMsg(InvalidParams) + err.Error(),
+			Code: code.InvalidParams,
+			Msg:  code.GetMsg(code.InvalidParams) + err.Error(),
 			Data: nil,
 		})
 		return
 	}
-	id, err := models.RoleAdd(&role)
+	ecode, id, err := models.RoleAdd(&role)
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
-			Code: Error,
-			Msg:  GetMsg(Error) + err.Error(),
+			Code: ecode,
+			Msg:  code.GetMsg(ecode) + err.Error(),
 			Data: nil,
 		})
 		return
 	}
 	c.JSON(http.StatusOK, Response{
-		Code: Success,
-		Msg:  GetMsg(Success),
+		Code: ecode,
+		Msg:  code.GetMsg(ecode),
 		Data: map[string]int64{
 			"id": id,
 		},
@@ -107,6 +111,7 @@ func RoleAdd(c *gin.Context) {
 // @Summary 编辑角色
 // @Tags role
 // @Accept json
+// @Security ApiKeyAuth
 // @Param body body models.RoleForAdd true "role json"
 // @Param id path int true "role id"
 // @Success 200 {object} controllers.Response
@@ -115,8 +120,8 @@ func RoleUpdate(c *gin.Context) {
 	id, err := strconv.Atoi(c.Param("id"))
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
-			Code: InvalidParams,
-			Msg:  GetMsg(InvalidParams) + err.Error(),
+			Code: code.InvalidParams,
+			Msg:  code.GetMsg(code.InvalidParams) + err.Error(),
 			Data: nil,
 		})
 		return
@@ -125,25 +130,25 @@ func RoleUpdate(c *gin.Context) {
 	err = c.ShouldBindJSON(&role)
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
-			Code: InvalidParams,
-			Msg:  GetMsg(InvalidParams) + err.Error(),
+			Code: code.InvalidParams,
+			Msg:  code.GetMsg(code.InvalidParams) + err.Error(),
 			Data: nil,
 		})
 		return
 	}
 	role.ID = int64(id)
-	num, err := models.RoleUpdate(&role)
+	ecode, num, err := models.RoleUpdate(&role)
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
-			Code: Error,
-			Msg:  GetMsg(Error) + err.Error(),
+			Code: ecode,
+			Msg:  code.GetMsg(ecode) + err.Error(),
 			Data: nil,
 		})
 		return
 	}
 	c.JSON(http.StatusOK, Response{
-		Code: Success,
-		Msg:  GetMsg(Success),
+		Code: ecode,
+		Msg:  code.GetMsg(ecode),
 		Data: map[string]int64{
 			"RowsAffected": num,
 		},
@@ -155,6 +160,7 @@ func RoleUpdate(c *gin.Context) {
 // @Summary 删除角色
 // @Tags role
 // @Accept x-www-form-urlencoded
+// @Security ApiKeyAuth
 // @Param id path int true "role id"
 // @Success 200 {object} controllers.Response
 // @Router /role/{id} [delete]
@@ -162,24 +168,24 @@ func RoleDel(c *gin.Context) {
 	id, err := strconv.Atoi(c.Param("id"))
 	if err != nil || id <= 0 {
 		c.JSON(http.StatusOK, Response{
-			Code: InvalidParams,
-			Msg:  GetMsg(InvalidParams) + err.Error(),
+			Code: code.InvalidParams,
+			Msg:  code.GetMsg(code.InvalidParams) + err.Error(),
 			Data: nil,
 		})
 		return
 	}
-	num, err := models.RoleDel(id)
+	ecode, num, err := models.RoleDel(id)
 	if err != nil {
 		c.JSON(http.StatusOK, Response{
-			Code: Error,
-			Msg:  GetMsg(Error) + err.Error(),
+			Code: ecode,
+			Msg:  code.GetMsg(ecode) + err.Error(),
 			Data: nil,
 		})
 		return
 	}
 	c.JSON(http.StatusOK, Response{
-		Code: Success,
-		Msg:  GetMsg(Success),
+		Code: ecode,
+		Msg:  code.GetMsg(ecode),
 		Data: map[string]int64{
 			"RowsAffected": num,
 		},

@@ -1,11 +1,15 @@
 package models
 
 import (
+	"eme/middleware/auth"
+	"eme/pkg/code"
+	"encoding/json"
 	"log"
 	"time"
 
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
+	uuid "github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -57,6 +61,12 @@ type UserForGet struct {
 	Count       int64
 }
 
+// UserForLoginResponse 用户登录返回字段
+type UserForLoginResponse struct {
+	UserForGet
+	Token string
+}
+
 // TableName 指定用户表的名称
 func (UserForUpdate) TableName() string {
 	return "users"
@@ -73,82 +83,143 @@ func (User) TableName() string {
 }
 
 //UserGetByID 获取单个用户
-func UserGetByID(id int) (*UserForGet, error) {
+func UserGetByID(id int) (int, *UserForGet, error) {
 	var user UserForGet
 	DB := db
 	DB = DB.Preload("Role").First(&user, id)
 	if DB.Error == gorm.ErrRecordNotFound {
-		log.Printf("find user error: %v\n", DB.Error)
-		return nil, nil
+		log.Printf("can not find user: %v\n", DB.Error)
+		return code.ErrorRecordNotFound, nil, DB.Error
 	} else if DB.Error != nil {
 		log.Printf("find user error: %v\n", DB.Error)
-		return nil, DB.Error
+		return code.Error, nil, DB.Error
 	}
-	return &user, nil
+	return code.Success, &user, nil
 }
 
 //UserDelByID 删除单个用户
-func UserDelByID(id int64) (int64, error) {
+func UserDelByID(id int64) (int, int64, error) {
 	user := User{ID: id}
 	DB := db
 	DB = DB.Delete(&user)
 	if DB.Error != nil {
-		log.Printf("find user error: %v\n", DB.Error)
-		return 0, DB.Error
+		log.Printf("delete user error: %v\n", DB.Error)
+		return code.Error, 0, DB.Error
 	}
-	return DB.RowsAffected, nil
+	return code.Success, DB.RowsAffected, nil
 }
 
 //UserUpdate 更新用户
-func UserUpdate(id int, u *UserForUpdate) (int64, error) {
+func UserUpdate(id int, u *UserForUpdate) (int, int64, error) {
 	user := User{ID: int64(id)}
 	DB := db
 	DB = DB.First(&user)
 	if user.Username == "" {
-		return 0, errors.New("can not find the user")
+		return code.ErrorRecordNotFound, 0, errors.New("can not find the user")
 	}
 	DB = DB.Table("users").Where("id = ?", id).Updates(u)
 	if DB.Error != nil {
 		log.Printf("update user error: %v\n", DB.Error)
-		return 0, DB.Error
+		return code.Error, 0, DB.Error
 	}
-	return DB.RowsAffected, nil
+	return code.Success, DB.RowsAffected, nil
 }
 
 //UserGet 获取用户
-func UserGet(nowPage int, pageSize int) (int, []UserForGet, error) {
+func UserGet(nowPage int, pageSize int) (int, int, []UserForGet, error) {
 	var users []UserForGet
 	var count int
 	DB := db
 	DB = DB.Table("users").Count(&count).Limit(pageSize).Offset((nowPage - 1) * pageSize).Preload("Role").Find(&users)
 	if DB.Error != nil {
 		log.Printf("find user error: %v\n", DB.Error)
-		return 0, nil, DB.Error
+		return code.Error, 0, nil, DB.Error
 	}
-	return count, users, nil
+	return code.Success, count, users, nil
+}
+
+// UserLogout 用户退出
+func UserLogout(token string) int {
+	now := time.Now()
+	expireTime := now.Add(time.Duration(auth.EffectiveDuration) * time.Hour)
+	auth.TokenBlackMap.Set(token, expireTime)
+	return code.Success
+}
+
+// UserLogin 用户登录
+func UserLogin(Username, Password string) (int, *UserForLoginResponse, error) {
+	var user User
+	DB := db
+	DB.Where(&User{Username: Username}).Preload("Role").First(&user)
+	if DB.Error != nil {
+		return code.AuthInvalidUsernamePasssword, nil, DB.Error
+	}
+	// 比对密码是否匹配
+	err := bcrypt.CompareHashAndPassword([]byte(user.Password), []byte(Password))
+	if err != nil {
+		return code.AuthInvalidUsernamePasssword, nil, err
+	}
+
+	key := uuid.NewV4().String()
+
+	tmpLastLoginAt := user.LastLoginAt
+	tx := DB.Begin()
+	tx = tx.Model(&user).Updates(User{Key: key, Count: user.Count + 1, LastLoginAt: time.Now()})
+	if tx.Error != nil {
+		return code.Error, nil, tx.Error
+	}
+	token, err := auth.GenerateToken(Username, key, user.Role.RoleName)
+	if err != nil {
+		log.Printf("generate user token error: %v\n", tx.Error)
+		tx.Rollback()
+		return code.Error, nil, tx.Error
+	}
+	var res UserForLoginResponse
+	userByte, _ := json.Marshal(user)
+	json.Unmarshal(userByte, &res)
+	res.Token = token
+	res.LastLoginAt = tmpLastLoginAt
+	tx.Commit()
+	return code.Success, &res, nil
 }
 
 //UserAdd 添加用户
-func UserAdd(u *User) (int64, error) {
+func UserAdd(u *User) (int, *UserForLoginResponse, error) {
 	var role Role
 	DB := db
 	DB = DB.Model(&u).Related(&role)
 	if DB.Error != nil {
 		log.Printf("can not find the role of user: %v\n", DB.Error)
-		return 0, DB.Error
+		return code.Error, nil, DB.Error
 	}
 	hashedPassword, err := bcrypt.GenerateFromPassword([]byte(u.Password), bcrypt.DefaultCost)
 	if err != nil {
 		log.Printf("hash user password error: %v\n", err)
-		return 0, err
+		return code.Error, nil, err
 	}
 	u.Password = string(hashedPassword)
 	u.LastLoginAt = time.Now()
 	u.Role = role
-	DB = db.Create(&u)
-	if DB.Error != nil {
-		log.Printf("creat user error: %v\n", DB.Error)
-		return 0, DB.Error
+	u.Key = uuid.NewV4().String()
+	u.Count++
+	// 开启事务
+	tx := DB.Begin()
+	tx = tx.Create(&u)
+	if tx.Error != nil {
+		log.Printf("creat user error: %v\n", tx.Error)
+		tx.Rollback()
+		return code.Error, nil, tx.Error
 	}
-	return u.ID, nil
+	token, err := auth.GenerateToken(u.Username, u.Key, u.Role.RoleName)
+	if err != nil {
+		log.Printf("generate user token error: %v\n", tx.Error)
+		tx.Rollback()
+		return code.Error, nil, tx.Error
+	}
+	var user UserForLoginResponse
+	userByte, _ := json.Marshal(u)
+	json.Unmarshal(userByte, &user)
+	user.Token = token
+	tx.Commit()
+	return code.Success, &user, nil
 }

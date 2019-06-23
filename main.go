@@ -17,6 +17,11 @@ import (
 // @title 电子物证
 // @version 1.0
 // @BasePath /v1
+
+// @securityDefinitions.apikey ApiKeyAuth
+// @in header
+// @name Authorization
+
 func main() {
 	// 编译启动后，可以通过发送 SIGTERM 信号，可以实现服务优雅的重启
 	// 执行 kill -1 pid 服务会等待旧的请求处理完成，同时开启一个新的进程去处理新来的请求, 可以在客户毫不知情的情况下，实现优雅的热更新服务。
