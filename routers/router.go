@@ -25,6 +25,7 @@ func InitRouter() *gin.Engine {
 
 	apiv1 := r.Group("/v1")
 	apiv1.POST("/user/login", controllers.UserLogin)
+	apiv1.POST("/user/refreshToken", controllers.UserRefreshToken)
 	apiv1.Use(auth.Auth())
 	{
 		apiv1.GET("/user", controllers.UserGet)

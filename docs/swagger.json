@@ -228,6 +228,7 @@
                         "description": "user for add",
                         "name": "body",
                         "in": "body",
+                        "required": true,
                         "schema": {
                             "type": "object",
                             "$ref": "#/definitions/models.UserForAdd"
@@ -259,13 +260,15 @@
                         "type": "string",
                         "description": "user name",
                         "name": "Username",
-                        "in": "formData"
+                        "in": "formData",
+                        "required": true
                     },
                     {
                         "type": "string",
                         "description": "user password",
                         "name": "Password",
-                        "in": "formData"
+                        "in": "formData",
+                        "required": true
                     }
                 ],
                 "responses": {
@@ -292,7 +295,41 @@
                 "tags": [
                     "user"
                 ],
-                "summary": "用户退出，销毁token",
+                "summary": "用户退出, 把token加入黑名单",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "$ref": "#/definitions/controllers.Response"
+                        }
+                    }
+                }
+            }
+        },
+        "/user/refreshToken": {
+            "post": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "tags": [
+                    "user"
+                ],
+                "summary": "用户获取新的token,新旧token会同时生效,旧的token 5分钟之后被销毁",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "refresh token",
+                        "name": "RefreshToken",
+                        "in": "formData",
+                        "required": true
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "OK",
@@ -362,6 +399,7 @@
                         "description": "user for update",
                         "name": "body",
                         "in": "body",
+                        "required": true,
                         "schema": {
                             "type": "object",
                             "$ref": "#/definitions/models.UserForUpdate"

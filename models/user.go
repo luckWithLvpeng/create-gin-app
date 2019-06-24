@@ -63,8 +63,10 @@ type UserForGet struct {
 
 // UserForLoginResponse 用户登录返回字段
 type UserForLoginResponse struct {
-	UserForGet
-	Token string
+	User         UserForGet
+	Token        string
+	Expires      int
+	RefreshToken string
 }
 
 // TableName 指定用户表的名称
@@ -138,6 +140,36 @@ func UserGet(nowPage int, pageSize int) (int, int, []UserForGet, error) {
 	return code.Success, count, users, nil
 }
 
+// UserRefreshToken 用户刷新token
+func UserRefreshToken(Token string, RefreshToken string) (int, string, error) {
+	if auth.TokenBlackMap.Has(Token) {
+		return code.AuthInvalid, "", nil
+	}
+	_, err := auth.ParseToken(Token)
+	if err != nil {
+		return code.AuthInvalid, "", err
+	}
+	var user User
+	DB := db
+	DB.Where(&User{Key: RefreshToken}).Preload("Role").First(&user)
+	if DB.Error == gorm.ErrRecordNotFound {
+		return code.AuthInvalid, "", errors.New("refreshToken 失效")
+	} else if DB.Error != nil {
+		return code.AuthInvalid, "", DB.Error
+	}
+	newToken, err := auth.GenerateToken(user.Username, user.Role.RoleName)
+	if err != nil {
+		return code.Error, "", err
+	}
+	// 开启协程, 5分钟后销毁旧的token
+	time.AfterFunc(time.Minute*5, func() {
+		now := time.Now()
+		expireTime := now.Add(time.Duration(auth.EffectiveDuration) * time.Hour)
+		auth.TokenBlackMap.Set(Token, expireTime)
+	})
+	return code.Success, newToken, nil
+}
+
 // UserLogout 用户退出
 func UserLogout(token string) int {
 	now := time.Now()
@@ -151,8 +183,10 @@ func UserLogin(Username, Password string) (int, *UserForLoginResponse, error) {
 	var user User
 	DB := db
 	DB.Where(&User{Username: Username}).Preload("Role").First(&user)
-	if DB.Error != nil {
+	if DB.Error == gorm.ErrRecordNotFound {
 		return code.AuthInvalidUsernamePasssword, nil, DB.Error
+	} else if DB.Error != nil {
+		return code.Error, nil, DB.Error
 	}
 	// 比对密码是否匹配
 	err := bcrypt.CompareHashAndPassword([]byte(user.Password), []byte(Password))
@@ -168,7 +202,7 @@ func UserLogin(Username, Password string) (int, *UserForLoginResponse, error) {
 	if tx.Error != nil {
 		return code.Error, nil, tx.Error
 	}
-	token, err := auth.GenerateToken(Username, key, user.Role.RoleName)
+	token, err := auth.GenerateToken(Username, user.Role.RoleName)
 	if err != nil {
 		log.Printf("generate user token error: %v\n", tx.Error)
 		tx.Rollback()
@@ -176,9 +210,11 @@ func UserLogin(Username, Password string) (int, *UserForLoginResponse, error) {
 	}
 	var res UserForLoginResponse
 	userByte, _ := json.Marshal(user)
-	json.Unmarshal(userByte, &res)
+	json.Unmarshal(userByte, &res.User)
 	res.Token = token
-	res.LastLoginAt = tmpLastLoginAt
+	res.RefreshToken = key
+	res.User.LastLoginAt = tmpLastLoginAt
+	res.Expires = auth.EffectiveDuration
 	tx.Commit()
 	return code.Success, &res, nil
 }
@@ -210,16 +246,18 @@ func UserAdd(u *User) (int, *UserForLoginResponse, error) {
 		tx.Rollback()
 		return code.Error, nil, tx.Error
 	}
-	token, err := auth.GenerateToken(u.Username, u.Key, u.Role.RoleName)
+	token, err := auth.GenerateToken(u.Username, u.Role.RoleName)
 	if err != nil {
 		log.Printf("generate user token error: %v\n", tx.Error)
 		tx.Rollback()
 		return code.Error, nil, tx.Error
 	}
-	var user UserForLoginResponse
+	var res UserForLoginResponse
 	userByte, _ := json.Marshal(u)
-	json.Unmarshal(userByte, &user)
-	user.Token = token
+	json.Unmarshal(userByte, &res.User)
+	res.Token = token
+	res.Expires = auth.EffectiveDuration
+	res.RefreshToken = u.Key
 	tx.Commit()
-	return code.Success, &user, nil
+	return code.Success, &res, nil
 }

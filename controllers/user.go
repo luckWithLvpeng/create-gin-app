@@ -91,8 +91,44 @@ func UserGet(c *gin.Context) {
 
 }
 
-// UserLogout user logout
-// @Summary 用户退出，销毁token
+// UserRefreshToken user refresh token
+// @Summary 用户获取新的token,新旧token会同时生效,旧的token 5分钟之后被销毁
+// @Tags user
+// @Security ApiKeyAuth
+// @Accept x-www-form-urlencoded
+// @Param RefreshToken formData string true "refresh token"
+// @Success 200 {object} controllers.Response
+// @Router /user/refreshToken [post]
+func UserRefreshToken(c *gin.Context) {
+	Token := c.GetHeader("Authorization")
+	RefreshToken := c.PostForm("RefreshToken")
+	if Token == "" || RefreshToken == "" {
+		c.JSON(http.StatusOK, Response{
+			Code: code.InvalidParams,
+			Msg:  code.GetMsg(code.InvalidParams),
+			Data: nil,
+		})
+		return
+	}
+	ecode, token, err := models.UserRefreshToken(Token, RefreshToken)
+	if err != nil {
+		c.JSON(http.StatusOK, Response{
+			Code: ecode,
+			Msg:  code.GetMsg(ecode) + err.Error(),
+			Data: token,
+		})
+		return
+	}
+	c.JSON(http.StatusOK, Response{
+		Code: ecode,
+		Msg:  code.GetMsg(ecode),
+		Data: token,
+	})
+
+}
+
+// UserLogout user logout ,add token to black list
+// @Summary 用户退出, 把token加入黑名单
 // @Tags user
 // @Accept x-www-form-urlencoded
 // @Security ApiKeyAuth
@@ -113,8 +149,8 @@ func UserLogout(c *gin.Context) {
 // @Summary 用户登录
 // @Tags user
 // @Accept x-www-form-urlencoded
-// @Param Username formData string ture "user name"
-// @Param Password formData string ture "user password"
+// @Param Username formData string true "user name"
+// @Param Password formData string true "user password"
 // @Success 200 {object} controllers.Response
 // @Router /user/login [post]
 func UserLogin(c *gin.Context) {
@@ -188,7 +224,7 @@ func UserDeleteByID(c *gin.Context) {
 // @Accept  json
 // @Security ApiKeyAuth
 // @Param id path int true "user id"
-// @Param body body models.UserForUpdate ture "user for update"
+// @Param body body models.UserForUpdate true "user for update"
 // @Success 200 {object} controllers.Response
 // @Router /user/{id} [put]
 func UserUpdate(c *gin.Context) {
@@ -235,7 +271,7 @@ func UserUpdate(c *gin.Context) {
 // @Tags user
 // @Accept  json
 // @Security ApiKeyAuth
-// @Param body body models.UserForAdd ture "user for add"
+// @Param body body models.UserForAdd true "user for add"
 // @Success 200 {object} controllers.Response
 // @Router /user [post]
 func UserAdd(c *gin.Context) {

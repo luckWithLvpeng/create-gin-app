@@ -21,8 +21,6 @@ var (
 type Claims struct {
 	// 用户名
 	Username string `json:"username"`
-	// 和用户的key对比，当用户更新密码或变更角色时 ，key 要失效,用来控制token的失效
-	Key string `json:"key"`
 	// Role 表示用户的权限
 	RoleName string `json:"rolename"`
 	jwt.StandardClaims
@@ -54,13 +52,12 @@ func deleteTokenExpirse() {
 }
 
 //GenerateToken  生成jwt token
-func GenerateToken(username, key, rolename string) (string, error) {
+func GenerateToken(username, rolename string) (string, error) {
 	nowTime := time.Now()
 	expireTime := nowTime.Add(time.Duration(EffectiveDuration) * time.Hour)
 
 	claims := Claims{
 		username,
-		key,
 		rolename,
 		jwt.StandardClaims{
 			ExpiresAt: expireTime.Unix(),

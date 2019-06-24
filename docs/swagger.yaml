@@ -178,6 +178,7 @@ paths:
       - description: user for add
         in: body
         name: body
+        required: true
         schema:
           $ref: '#/definitions/models.UserForAdd'
           type: object
@@ -245,6 +246,7 @@ paths:
       - description: user for update
         in: body
         name: body
+        required: true
         schema:
           $ref: '#/definitions/models.UserForUpdate'
           type: object
@@ -267,10 +269,12 @@ paths:
       - description: user name
         in: formData
         name: Username
+        required: true
         type: string
       - description: user password
         in: formData
         name: Password
+        required: true
         type: string
       responses:
         "200":
@@ -293,7 +297,28 @@ paths:
             type: object
       security:
       - ApiKeyAuth: []
-      summary: 用户退出，销毁token
+      summary: 用户退出, 把token加入黑名单
+      tags:
+      - user
+  /user/refreshToken:
+    post:
+      consumes:
+      - application/x-www-form-urlencoded
+      parameters:
+      - description: refresh token
+        in: formData
+        name: RefreshToken
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.Response'
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: 用户获取新的token,新旧token会同时生效,旧的token 5分钟之后被销毁
       tags:
       - user
 securityDefinitions:
