@@ -15,4 +15,5 @@ hsvd_log*
 core
 logfile
 eme
+release
 blackList.db

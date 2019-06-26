@@ -20,7 +20,7 @@ set(VERSION "${CPACK_PACKAGE_VERSION}")
 
 install(FILES ${CMAKE_SOURCE_DIR}/eme DESTINATION  /usr/local/eme/bin
     PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ)
-install(DIRECTORY ${CMAKE_SOURCE_DIR}/docs/ DESTINATION  /usr/local/eme/bin/docs
+install(DIRECTORY ${CMAKE_SOURCE_DIR}/docs/ DESTINATION  /usr/local/eme/bin/docs)
 install(DIRECTORY ${CMAKE_SOURCE_DIR}/build/  DESTINATION  /usr/local/eme/bin/build)
 install(DIRECTORY ${CMAKE_SOURCE_DIR}/${LIB_DIR}  DESTINATION  /usr/local/eme/bin/lib)
 install(FILES ${CMAKE_SOURCE_DIR}/conf/app.conf  DESTINATION  /usr/local/eme/bin/conf RENAME app.conf)
