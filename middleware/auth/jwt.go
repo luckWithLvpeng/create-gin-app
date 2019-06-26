@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	cmap "github.com/orcaman/concurrent-map"
+	"github.com/patrickmn/go-cache"
 )
 
 var (
@@ -13,8 +13,8 @@ var (
 	//EffectiveDuration token 有效期
 	EffectiveDuration int
 	issuer            string
-	//TokenBlackMap  token 黑名单 , cmap 多线程安全map的一种实现
-	TokenBlackMap = cmap.New()
+	// BlackList  权限黑名单, 把token或者用户加入黑名单
+	BlackList *cache.Cache
 )
 
 // Claims jwt包含信息
@@ -32,23 +32,9 @@ func init() {
 	issuer = config.DefaultConfig.Section("auth").Key("effective_duration").MustString("baimu")
 	jwtSecret = []byte(secret)
 
-	deleteTokenExpirse()
-}
-
-// deleteTokenExpirse 定期删除过期的token
-func deleteTokenExpirse() {
-
-	now := time.Now()
-	// Insert items to temporary map.
-	for item := range TokenBlackMap.IterBuffered() {
-		time := item.Val.(time.Time)
-		if now.After(time) {
-			TokenBlackMap.Remove(item.Key)
-		}
-
-	}
-	// 每 2 个小时清理一下过期的token
-	time.AfterFunc(time.Hour*2, deleteTokenExpirse)
+	BlackList = cache.New(time.Duration(EffectiveDuration)*time.Hour, 10*time.Minute)
+	// 从黑名单库,加载黑名单
+	BlackList.LoadFile("blackList.db")
 }
 
 //GenerateToken  生成jwt token

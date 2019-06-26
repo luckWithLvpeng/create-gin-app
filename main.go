@@ -1,6 +1,7 @@
 package main
 
 import (
+	"eme/middleware/auth"
 	_ "eme/models"
 	"eme/pkg/config"
 	_ "eme/pkg/logger"
@@ -36,6 +37,10 @@ func main() {
 	}
 
 	fmt.Printf("listening and serve on :%d\n ", config.HTTPPort)
+	defer func() {
+		//在系统宕机或者重启时，把权限黑名单保存到本地，系统启动时，从该文件中重新加载权限黑名单
+		auth.BlackList.SaveFile("blackList.db")
+	}()
 	err := server.ListenAndServe()
 	if err != nil {
 		log.Printf("Server err: %v", err)

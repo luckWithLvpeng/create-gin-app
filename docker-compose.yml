@@ -1,0 +1,30 @@
+version: "3"
+services:
+  eme:
+    # replace username/repo:tag with your name and image details
+    image: float123/eme:v1.0.0
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: "1"
+          memory: 8G
+    ports:
+      - "80:80"
+    networks:
+      - emeNet
+  visualizer:
+    image: dockersamples/visualizer:stable
+    ports:
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - emeNet
+networks:
+  emeNet:

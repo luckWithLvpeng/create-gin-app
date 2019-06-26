@@ -15,13 +15,15 @@ func Auth() gin.HandlerFunc {
 		token := c.GetHeader("Authorization")
 		if token == "" {
 			ecode = code.AuthNeedHeaderAuthorization
-		} else if TokenBlackMap.Has(token) {
+		} else if _, found := BlackList.Get(token); found {
 			// token 已经失效
 			ecode = code.AuthInvalid
 		} else {
 			claims, err := ParseToken(token)
 			if err != nil {
 				ecode = code.AuthParseToken
+			} else if _, found := BlackList.Get(claims.Username); found {
+				ecode = code.AuthInvalid
 			} else if time.Now().Unix() > claims.ExpiresAt {
 				ecode = code.AuthTokenTimeout
 			}

@@ -92,7 +92,7 @@ func UserGet(c *gin.Context) {
 }
 
 // UserRefreshToken user refresh token
-// @Summary 用户获取新的token,新旧token会同时生效,旧的token 5分钟之后被销毁
+// @Summary 用户获取新的token,新旧token会同时生效,旧的token 1分钟之后被销毁
 // @Tags user
 // @Security ApiKeyAuth
 // @Accept x-www-form-urlencoded
@@ -128,21 +128,38 @@ func UserRefreshToken(c *gin.Context) {
 }
 
 // UserLogout user logout ,add token to black list
-// @Summary 用户退出, 把token加入黑名单
+// @Summary 用户退出, 销毁token 和 refreshToken
 // @Tags user
 // @Accept x-www-form-urlencoded
 // @Security ApiKeyAuth
+// @Param RefreshToken formData string true "refresh token"
 // @Success 200 {object} controllers.Response
 // @Router /user/logout [post]
 func UserLogout(c *gin.Context) {
-	token := c.GetHeader("Authorization")
-	ecode := models.UserLogout(token)
+	Token := c.GetHeader("Authorization")
+	RefreshToken := c.PostForm("RefreshToken")
+	if Token == "" || RefreshToken == "" {
+		c.JSON(http.StatusOK, Response{
+			Code: code.InvalidParams,
+			Msg:  code.GetMsg(code.InvalidParams),
+			Data: nil,
+		})
+		return
+	}
+	ecode, err := models.UserLogout(Token, RefreshToken)
+	if err != nil {
+		c.JSON(http.StatusOK, Response{
+			Code: ecode,
+			Msg:  code.GetMsg(ecode) + err.Error(),
+			Data: nil,
+		})
+		return
+	}
 	c.JSON(http.StatusOK, Response{
 		Code: ecode,
 		Msg:  code.GetMsg(ecode),
 		Data: nil,
 	})
-
 }
 
 // UserLogin user login

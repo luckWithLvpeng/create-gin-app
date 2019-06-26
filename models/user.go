@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
+	"github.com/patrickmn/go-cache"
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"
@@ -108,6 +109,7 @@ func UserDelByID(id int64) (int, int64, error) {
 		log.Printf("delete user error: %v\n", DB.Error)
 		return code.Error, 0, DB.Error
 	}
+	auth.BlackList.Set(user.Username, user.Username, cache.DefaultExpiration)
 	return code.Success, DB.RowsAffected, nil
 }
 
@@ -142,7 +144,7 @@ func UserGet(nowPage int, pageSize int) (int, int, []UserForGet, error) {
 
 // UserRefreshToken 用户刷新token
 func UserRefreshToken(Token string, RefreshToken string) (int, string, error) {
-	if auth.TokenBlackMap.Has(Token) {
+	if _, found := auth.BlackList.Get(Token); found {
 		return code.AuthInvalid, "", nil
 	}
 	_, err := auth.ParseToken(Token)
@@ -161,21 +163,31 @@ func UserRefreshToken(Token string, RefreshToken string) (int, string, error) {
 	if err != nil {
 		return code.Error, "", err
 	}
-	// 开启协程, 5分钟后销毁旧的token
-	time.AfterFunc(time.Minute*5, func() {
-		now := time.Now()
-		expireTime := now.Add(time.Duration(auth.EffectiveDuration) * time.Hour)
-		auth.TokenBlackMap.Set(Token, expireTime)
+	// 开启协程, 1分钟后销毁旧的token
+	time.AfterFunc(time.Minute, func() {
+		auth.BlackList.Set(Token, user.Username, cache.DefaultExpiration)
 	})
 	return code.Success, newToken, nil
 }
 
 // UserLogout 用户退出
-func UserLogout(token string) int {
-	now := time.Now()
-	expireTime := now.Add(time.Duration(auth.EffectiveDuration) * time.Hour)
-	auth.TokenBlackMap.Set(token, expireTime)
-	return code.Success
+func UserLogout(Token string, RefreshToken string) (int, error) {
+	DB := db
+	var user User
+	DB.Where(&User{Key: RefreshToken}).First(&user)
+	if DB.Error == gorm.ErrRecordNotFound {
+		return code.AuthInvalid, errors.New("refreshToken 失效")
+	} else if DB.Error != nil {
+		return code.AuthInvalid, DB.Error
+	}
+	key := uuid.NewV4().String()
+	DB = DB.Model(&user).Updates(User{Key: key})
+	if DB.Error != nil {
+		return code.Error, DB.Error
+	}
+	auth.BlackList.Set(Token, user.Username, cache.DefaultExpiration)
+	auth.BlackList.Set(user.Username, user.Username, cache.DefaultExpiration)
+	return code.Success, nil
 }
 
 // UserLogin 用户登录
@@ -216,6 +228,8 @@ func UserLogin(Username, Password string) (int, *UserForLoginResponse, error) {
 	res.User.LastLoginAt = tmpLastLoginAt
 	res.Expires = auth.EffectiveDuration
 	tx.Commit()
+	// 从黑名单中把该用户去掉
+	auth.BlackList.Delete(user.Username)
 	return code.Success, &res, nil
 }
 
