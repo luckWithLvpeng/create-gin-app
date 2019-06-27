@@ -295,7 +295,16 @@
                 "tags": [
                     "user"
                 ],
-                "summary": "用户退出, 把token加入黑名单",
+                "summary": "用户退出, 销毁token 和 refreshToken",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "refresh token",
+                        "name": "RefreshToken",
+                        "in": "formData",
+                        "required": true
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "OK",
@@ -320,7 +329,7 @@
                 "tags": [
                     "user"
                 ],
-                "summary": "用户获取新的token,新旧token会同时生效,旧的token 5分钟之后被销毁",
+                "summary": "用户获取新的token,新旧token会同时生效,旧的token 1分钟之后被销毁",
                 "parameters": [
                     {
                         "type": "string",

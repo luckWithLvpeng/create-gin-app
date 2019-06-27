@@ -13,6 +13,10 @@ import (
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 )
 
+func init() {
+	InitAll()
+}
+
 // InitRouter 初始化路由
 func InitRouter() *gin.Engine {
 	if config.RunMode != "dev" {

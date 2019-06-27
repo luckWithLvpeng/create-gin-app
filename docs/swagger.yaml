@@ -289,6 +289,12 @@ paths:
     post:
       consumes:
       - application/x-www-form-urlencoded
+      parameters:
+      - description: refresh token
+        in: formData
+        name: RefreshToken
+        required: true
+        type: string
       responses:
         "200":
           description: OK
@@ -297,7 +303,7 @@ paths:
             type: object
       security:
       - ApiKeyAuth: []
-      summary: 用户退出, 把token加入黑名单
+      summary: 用户退出, 销毁token 和 refreshToken
       tags:
       - user
   /user/refreshToken:
@@ -318,7 +324,7 @@ paths:
             type: object
       security:
       - ApiKeyAuth: []
-      summary: 用户获取新的token,新旧token会同时生效,旧的token 5分钟之后被销毁
+      summary: 用户获取新的token,新旧token会同时生效,旧的token 1分钟之后被销毁
       tags:
       - user
 securityDefinitions:

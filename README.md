@@ -1,6 +1,6 @@
-# create gin app
+# 电子物证
 
-gin 作为 server 初始化golang项目
+电子物证初始化项目
 
 ## Features 特点
 * `conf/app.con`配置app相关参数，可以设置日志保存目录，和当发生重大错误(panic)时，日志保存文件 `error.log`。
