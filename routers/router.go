@@ -14,7 +14,7 @@ import (
 )
 
 func init() {
-	InitAll()
+	//	InitAll()
 }
 
 // InitRouter 初始化路由

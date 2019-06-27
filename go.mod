@@ -15,6 +15,7 @@ require (
 	github.com/fvbock/endless v0.0.0-20170109170031-447134032cb6
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.4.0
+	github.com/go-critic/go-critic v0.0.0-20181204210945-ee9bf5809ead // indirect
 	github.com/go-delve/delve v1.2.0 // indirect
 	github.com/go-ini/ini v1.42.0
 	github.com/go-openapi/jsonpointer v0.19.0 // indirect
@@ -22,7 +23,7 @@ require (
 	github.com/go-openapi/spec v0.19.0 // indirect
 	github.com/go-openapi/swag v0.19.0 // indirect
 	github.com/go-sql-driver/mysql v1.4.1
-	github.com/golangci/golangci-lint v1.16.0 // indirect
+	github.com/golangci/golangci-lint v1.17.1 // indirect
 	github.com/google/shlex v0.0.0-20181106134648-c34317bd91bf // indirect
 	github.com/gorilla/websocket v1.4.0 // indirect
 	github.com/graarh/golang-socketio v0.0.0-20170510162725-2c44953b9b5f
@@ -52,6 +53,7 @@ require (
 	golang.org/x/tools v0.0.0-20190606050223-4d9ae51c2468 // indirect
 	gopkg.in/alecthomas/kingpin.v3-unstable v3.0.0-20180810215634-df19058c872c // indirect
 	gopkg.in/ini.v1 v1.42.0 // indirect
+	sourcegraph.com/sourcegraph/go-diff v0.5.1-0.20190210232911-dee78e514455 // indirect
 )
 
 replace github.com/ugorji/go v1.1.4 => github.com/ugorji/go v0.0.0-20190204201341-e444a5086c43
