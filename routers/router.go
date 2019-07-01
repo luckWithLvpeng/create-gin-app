@@ -23,10 +23,11 @@ func InitRouter() *gin.Engine {
 		gin.SetMode(gin.ReleaseMode)
 	}
 	r := gin.New()
+	// gin 中间件
 	r.Use(gin.Recovery())
 	r.Use(gin.LoggerWithWriter(gin.DefaultWriter))
-	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
+	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	apiv1 := r.Group("/v1")
 	apiv1.POST("/user/login", controllers.UserLogin)
 	apiv1.POST("/user/refreshToken", controllers.UserRefreshToken)

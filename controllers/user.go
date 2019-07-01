@@ -12,7 +12,7 @@ import (
 
 // UserGetByID user get by id
 // @Summary 获取单个用户
-// @Tags user
+// @Tags user 用户
 // @Accept  json
 // @Security ApiKeyAuth
 // @Param id path int true "user id"
@@ -47,7 +47,7 @@ func UserGetByID(c *gin.Context) {
 
 // UserGet user get
 // @Summary 获取用户
-// @Tags user
+// @Tags user 用户
 // @Accept  json
 // @Security ApiKeyAuth
 // @Param nowPage query int false "now page"
@@ -93,7 +93,7 @@ func UserGet(c *gin.Context) {
 
 // UserRefreshToken user refresh token
 // @Summary 用户获取新的token,新旧token会同时生效,旧的token 1分钟之后被销毁
-// @Tags user
+// @Tags user 用户
 // @Security ApiKeyAuth
 // @Accept x-www-form-urlencoded
 // @Param RefreshToken formData string true "refresh token"
@@ -129,7 +129,7 @@ func UserRefreshToken(c *gin.Context) {
 
 // UserLogout user logout ,add token to black list
 // @Summary 用户退出, 销毁token 和 refreshToken
-// @Tags user
+// @Tags user 用户
 // @Accept x-www-form-urlencoded
 // @Security ApiKeyAuth
 // @Param RefreshToken formData string true "refresh token"
@@ -164,7 +164,7 @@ func UserLogout(c *gin.Context) {
 
 // UserLogin user login
 // @Summary 用户登录
-// @Tags user
+// @Tags user 用户
 // @Accept x-www-form-urlencoded
 // @Param Username formData string true "user name"
 // @Param Password formData string true "user password"
@@ -200,7 +200,7 @@ func UserLogin(c *gin.Context) {
 
 // UserDeleteByID user delete by id
 // @Summary 删除单个用户
-// @Tags user
+// @Tags user 用户
 // @Accept  json
 // @Security ApiKeyAuth
 // @Param id path int true "user id"
@@ -237,7 +237,7 @@ func UserDeleteByID(c *gin.Context) {
 
 // UserUpdate user update
 // @Summary 更新用户
-// @Tags user
+// @Tags user 用户
 // @Accept  json
 // @Security ApiKeyAuth
 // @Param id path int true "user id"
@@ -285,7 +285,7 @@ func UserUpdate(c *gin.Context) {
 
 // UserAdd user add
 // @Summary 添加用户
-// @Tags user
+// @Tags user 用户
 // @Accept  json
 // @Security ApiKeyAuth
 // @Param body body models.UserForAdd true "user for add"

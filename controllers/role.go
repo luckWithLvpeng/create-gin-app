@@ -12,7 +12,7 @@ import (
 
 // RoleGetByID role get by id
 // @Summary 获取单个角色
-// @Tags role
+// @Tags role 角色
 // @Security ApiKeyAuth
 // @Param id path int true  "角色 id"
 // @Success 200 {object} controllers.Response
@@ -47,7 +47,7 @@ func RoleGetByID(c *gin.Context) {
 
 // RoleGet role get
 // @Summary 获取所有角色
-// @Tags role
+// @Tags role 角色
 // @Security ApiKeyAuth
 // @Success 200 {object} controllers.Response
 // @Router /role [get]
@@ -71,7 +71,7 @@ func RoleGet(c *gin.Context) {
 
 // RoleAdd role add
 // @Summary 添加角色
-// @Tags role
+// @Tags role 角色
 // @Accept json
 // @Security ApiKeyAuth
 // @Param body body models.RoleForAdd true "role json"
@@ -109,7 +109,7 @@ func RoleAdd(c *gin.Context) {
 
 // RoleUpdate role edit
 // @Summary 编辑角色
-// @Tags role
+// @Tags role 角色
 // @Accept json
 // @Security ApiKeyAuth
 // @Param body body models.RoleForAdd true "role json"
@@ -158,7 +158,7 @@ func RoleUpdate(c *gin.Context) {
 
 // RoleDel role delete
 // @Summary 删除角色
-// @Tags role
+// @Tags role 角色
 // @Accept x-www-form-urlencoded
 // @Security ApiKeyAuth
 // @Param id path int true "role id"

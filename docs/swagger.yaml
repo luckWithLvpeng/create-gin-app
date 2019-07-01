@@ -46,6 +46,50 @@ info:
   title: 电子物证
   version: "1.0"
 paths:
+  /image/classify:
+    post:
+      consumes:
+      - application/x-www-form-urlencoded
+      description: 输入一张图片，输出图片中的多个通用物体和场景, 给图片分类
+      parameters:
+      - description: 图片的base64编码,去掉编码头,图片大小不超过4M
+        in: formData
+        name: image
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.Response'
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: 图像分类，识别通用物体
+      tags:
+      - image 图像
+  /image/face/detect:
+    post:
+      consumes:
+      - application/x-www-form-urlencoded
+      description: 获取人脸的位置, 人脸相关的属性，如 性别，年龄等，人脸的质量信息，相关因素如亮度，遮挡，模糊，完整度， 置信度等；人脸关键点信息等
+      parameters:
+      - description: 图片的base64编码,去掉编码头
+        in: formData
+        name: image
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.Response'
+            type: object
+      security:
+      - ApiKeyAuth: []
+      summary: 人脸检测
+      tags:
+      - image 图像
   /role:
     get:
       responses:
@@ -58,7 +102,7 @@ paths:
       - ApiKeyAuth: []
       summary: 获取所有角色
       tags:
-      - role
+      - role 角色
     post:
       consumes:
       - application/json
@@ -80,7 +124,7 @@ paths:
       - ApiKeyAuth: []
       summary: 添加角色
       tags:
-      - role
+      - role 角色
   /role/{id}:
     delete:
       consumes:
@@ -101,7 +145,7 @@ paths:
       - ApiKeyAuth: []
       summary: 删除角色
       tags:
-      - role
+      - role 角色
     get:
       parameters:
       - description: 角色 id
@@ -119,7 +163,7 @@ paths:
       - ApiKeyAuth: []
       summary: 获取单个角色
       tags:
-      - role
+      - role 角色
     put:
       consumes:
       - application/json
@@ -146,7 +190,7 @@ paths:
       - ApiKeyAuth: []
       summary: 编辑角色
       tags:
-      - role
+      - role 角色
   /user:
     get:
       consumes:
@@ -170,7 +214,7 @@ paths:
       - ApiKeyAuth: []
       summary: 获取用户
       tags:
-      - user
+      - user 用户
     post:
       consumes:
       - application/json
@@ -192,7 +236,7 @@ paths:
       - ApiKeyAuth: []
       summary: 添加用户
       tags:
-      - user
+      - user 用户
   /user/{id}:
     delete:
       consumes:
@@ -213,7 +257,7 @@ paths:
       - ApiKeyAuth: []
       summary: 删除单个用户
       tags:
-      - user
+      - user 用户
     get:
       consumes:
       - application/json
@@ -233,7 +277,7 @@ paths:
       - ApiKeyAuth: []
       summary: 获取单个用户
       tags:
-      - user
+      - user 用户
     put:
       consumes:
       - application/json
@@ -260,7 +304,7 @@ paths:
       - ApiKeyAuth: []
       summary: 更新用户
       tags:
-      - user
+      - user 用户
   /user/login:
     post:
       consumes:
@@ -284,7 +328,7 @@ paths:
             type: object
       summary: 用户登录
       tags:
-      - user
+      - user 用户
   /user/logout:
     post:
       consumes:
@@ -305,7 +349,7 @@ paths:
       - ApiKeyAuth: []
       summary: 用户退出, 销毁token 和 refreshToken
       tags:
-      - user
+      - user 用户
   /user/refreshToken:
     post:
       consumes:
@@ -326,7 +370,7 @@ paths:
       - ApiKeyAuth: []
       summary: 用户获取新的token,新旧token会同时生效,旧的token 1分钟之后被销毁
       tags:
-      - user
+      - user 用户
 securityDefinitions:
   ApiKeyAuth:
     in: header
