@@ -1,6 +1,6 @@
-# 电子物证
+# a app starter 
 
-电子物证初始化项目
+a app starter write by go , use gin as http server
 
 ## Features 特点
 * `conf/app.con`配置app相关参数，可以设置日志保存目录，和当发生重大错误(panic)时，日志保存文件 `error.log`。
