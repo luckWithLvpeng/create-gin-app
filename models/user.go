@@ -1,8 +1,8 @@
 package models
 
 import (
-	"eme/middleware/auth"
-	"eme/pkg/code"
+	"create-gin-app/middleware/auth"
+	"create-gin-app/pkg/code"
 	"encoding/json"
 	"log"
 	"time"

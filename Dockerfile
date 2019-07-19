@@ -1,7 +1,7 @@
 FROM scratch
 
-WORKDIR $GOPATH/src/eme
-COPY . $GOPATH/src/eme
+WORKDIR $GOPATH/src/create-gin-app
+COPY . $GOPATH/src/create-gin-app
 
 EXPOSE 80
-ENTRYPOINT ["./eme"]
+ENTRYPOINT ["./create-gin-app"]

@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"eme/pkg/config"
+	"create-gin-app/pkg/config"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
@@ -27,7 +27,7 @@ type Claims struct {
 }
 
 func init() {
-	secret := config.DefaultConfig.Section("auth").Key("secret").MustString("eme.alleyes.com")
+	secret := config.DefaultConfig.Section("auth").Key("secret").MustString("create.gin.app.com")
 	EffectiveDuration = config.DefaultConfig.Section("auth").Key("effective_duration").MustInt(4)
 	issuer = config.DefaultConfig.Section("auth").Key("effective_duration").MustString("baimu")
 	jwtSecret = []byte(secret)

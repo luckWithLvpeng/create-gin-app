@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"eme/pkg/config"
+	"create-gin-app/pkg/config"
 
 	// driver for mysql
 	_ "github.com/go-sql-driver/mysql"
@@ -32,7 +32,7 @@ func initDB() {
 	user := sec.Key("user").MustString("root")
 	password := sec.Key("password").MustString("q1w2e3r4")
 	host := sec.Key("host").MustString("0.0.0.0:3306")
-	database := sec.Key("database").MustString("emedb")
+	database := sec.Key("database").MustString("create-gin-app-db")
 	url := fmt.Sprintf("%s:%s@(%s)/?charset=utf8&parseTime=True&loc=Local", user, password, host)
 	db, initDbError = gorm.Open("mysql", url)
 

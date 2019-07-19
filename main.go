@@ -1,11 +1,11 @@
 package main
 
 import (
-	"eme/middleware/auth"
-	_ "eme/models"
-	"eme/pkg/config"
-	_ "eme/pkg/logger"
-	"eme/routers"
+	"create-gin-app/middleware/auth"
+	_ "create-gin-app/models"
+	"create-gin-app/pkg/config"
+	_ "create-gin-app/pkg/logger"
+	"create-gin-app/routers"
 	"log"
 	"syscall"
 

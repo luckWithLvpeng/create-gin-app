@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"eme/models"
-	"eme/pkg/code"
+	"create-gin-app/models"
+	"create-gin-app/pkg/code"
 
 	"github.com/gin-gonic/gin"
 )

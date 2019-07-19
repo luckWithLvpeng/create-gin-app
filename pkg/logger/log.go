@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"eme/pkg/config"
+	"create-gin-app/pkg/config"
 
 	"github.com/gin-gonic/gin"
 )

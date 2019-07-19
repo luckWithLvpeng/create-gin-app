@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"eme/pkg/code"
+	"create-gin-app/pkg/code"
 	"net/http"
 	"time"
 

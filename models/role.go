@@ -1,7 +1,7 @@
 package models
 
 import (
-	"eme/pkg/code"
+	"create-gin-app/pkg/code"
 	"log"
 
 	"github.com/jinzhu/gorm"

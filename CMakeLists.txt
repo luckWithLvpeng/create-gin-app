@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(eme)
+project(create-gin-app)
 
 message("embed_platform on")
 set(EMBED_PLATFORM on)
@@ -18,11 +18,11 @@ set(CPACK_PACKAGE_VERSION "${CPACK_PACKAGE_VERSION_MAJOR}.${CPACK_PACKAGE_VERSIO
 set(CPACK_PACKAGE_FILE_NAME ${CPACK_PACKAGE_NAME}-${CPACK_PACKAGE_VERSION}-${CMAKE_SYSTEM_NAME}-${CMAKE_SYSTEM_PROCESSOR})
 set(VERSION "${CPACK_PACKAGE_VERSION}")
 
-install(FILES ${CMAKE_SOURCE_DIR}/eme DESTINATION  /usr/local/eme/bin
+install(FILES ${CMAKE_SOURCE_DIR}/create-gin-app DESTINATION  /usr/local/create-gin-app/bin
     PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ)
-install(DIRECTORY ${CMAKE_SOURCE_DIR}/docs/ DESTINATION  /usr/local/eme/bin/docs)
-install(DIRECTORY ${CMAKE_SOURCE_DIR}/build/  DESTINATION  /usr/local/eme/bin/build)
-install(DIRECTORY ${CMAKE_SOURCE_DIR}/${LIB_DIR}  DESTINATION  /usr/local/eme/bin/lib)
-install(FILES ${CMAKE_SOURCE_DIR}/conf/app.conf  DESTINATION  /usr/local/eme/bin/conf RENAME app.conf)
+install(DIRECTORY ${CMAKE_SOURCE_DIR}/docs/ DESTINATION  /usr/local/create-gin-app/bin/docs)
+install(DIRECTORY ${CMAKE_SOURCE_DIR}/build/  DESTINATION  /usr/local/create-gin-app/bin/build)
+install(DIRECTORY ${CMAKE_SOURCE_DIR}/${LIB_DIR}  DESTINATION  /usr/local/create-gin-app/bin/lib)
+install(FILES ${CMAKE_SOURCE_DIR}/conf/app.conf  DESTINATION  /usr/local/create-gin-app/bin/conf RENAME app.conf)
 
 include(CPack)
