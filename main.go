@@ -15,7 +15,7 @@ import (
 	"github.com/fvbock/endless"
 )
 
-// @title 电子物证
+// @title create-gin-app
 // @version 1.0
 // @BasePath /v1
 
